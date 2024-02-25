@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2AD4B72B8B932900BC2183 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */; };
+		AC2AD4BD2B8B96E100BC2183 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4B82B8B96E100BC2183 /* win.mp3 */; };
+		AC2AD4BE2B8B96E100BC2183 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4B92B8B96E100BC2183 /* lose.mp3 */; };
+		AC2AD4BF2B8B96E100BC2183 /* intrigue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */; };
+		AC2AD4C02B8B96E100BC2183 /* millionwin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */; };
+		AC2AD4C12B8B96E100BC2183 /* thinking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BC2B8B96E100BC2183 /* thinking.mp3 */; };
 		DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */; };
 		DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FC2B8B84320062B649 /* ContentView.swift */; };
 		DEB2B3FF2B8B84350062B649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB2B3FE2B8B84350062B649 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		AC2AD4B82B8B96E100BC2183 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		AC2AD4B92B8B96E100BC2183 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intrigue.mp3; sourceTree = "<group>"; };
+		AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = millionwin.mp3; sourceTree = "<group>"; };
+		AC2AD4BC2B8B96E100BC2183 /* thinking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thinking.mp3; sourceTree = "<group>"; };
 		DEB2B3F72B8B84320062B649 /* Who Wants to Be a Millionaire?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Wants to Be a Millionaire?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Wants_to_Be_a_Millionaire_App.swift; sourceTree = "<group>"; };
 		DEB2B3FC2B8B84320062B649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC2AD4B42B8B930000BC2183 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4B52B8B931600BC2183 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC2AD4B52B8B931600BC2183 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */,
+				AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */,
+				AC2AD4B92B8B96E100BC2183 /* lose.mp3 */,
+				AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */,
+				AC2AD4BC2B8B96E100BC2183 /* thinking.mp3 */,
+				AC2AD4B82B8B96E100BC2183 /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		DEB2B3EE2B8B84320062B649 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +86,7 @@
 			children = (
 				DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */,
 				DEB2B3FC2B8B84320062B649 /* ContentView.swift */,
+				AC2AD4B42B8B930000BC2183 /* Resources */,
 				DEB2B3FE2B8B84350062B649 /* Assets.xcassets */,
 				DEB2B4002B8B84350062B649 /* Preview Content */,
 			);
@@ -125,8 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2AD4BD2B8B96E100BC2183 /* win.mp3 in Resources */,
+				AC2AD4BE2B8B96E100BC2183 /* lose.mp3 in Resources */,
 				DEB2B4022B8B84350062B649 /* Preview Assets.xcassets in Resources */,
 				DEB2B3FF2B8B84350062B649 /* Assets.xcassets in Resources */,
+				AC2AD4C12B8B96E100BC2183 /* thinking.mp3 in Resources */,
+				AC2AD4BF2B8B96E100BC2183 /* intrigue.mp3 in Resources */,
+				AC2AD4C02B8B96E100BC2183 /* millionwin.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */,
+				AC2AD4B72B8B932900BC2183 /* SoundPlayer.swift in Sources */,
 				DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
