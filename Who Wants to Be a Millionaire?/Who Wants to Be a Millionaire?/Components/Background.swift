@@ -1,18 +1,22 @@
 //
 //  Background.swift
-//  Who Wants to Be a Millionaire?
-//
-//  Created by Artem on 26.02.2024.
 //
 
 import SwiftUI
 
 struct Background: View {
+    
+    let image: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image(image)
+                .resizableToFill()
+                .ignoresSafeArea()
+        }
     }
 }
 
 #Preview {
-    Background()
+    Background(image: BgImage.peoples)
 }

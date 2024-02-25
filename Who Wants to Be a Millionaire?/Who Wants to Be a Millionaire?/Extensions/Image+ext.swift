@@ -1,8 +1,17 @@
 //
 //  Image+ext.swift
-//  Who Wants to Be a Millionaire?
-//
-//  Created by Artem on 26.02.2024.
 //
 
-import Foundation
+import SwiftUI
+
+extension Image {
+    func resizableToFit() -> some View {
+        resizable()
+            .scaledToFit()
+    }
+    
+    func resizableToFill() -> some View {
+        resizable()
+            .scaledToFill()
+    }
+}

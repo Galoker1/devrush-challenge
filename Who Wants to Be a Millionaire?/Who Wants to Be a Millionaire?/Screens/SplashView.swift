@@ -5,14 +5,28 @@
 import SwiftUI
 
 struct SplashView: View {
+    
+    @State var offsetX: CGFloat = -700
+    @State var saturation = 0.6
+    
     var body: some View {
         ZStack {
-            Background(image: BgImage.emptyBg)
-            
+            Background(image: BgImage.empty)
+                .saturation(saturation)
+                .animation(.easeIn(duration: 1.5), value: saturation)
+
             Image("Logo")
-                .resizable()
-                .scaledToFit()
-                .padding(36)
+                .resizableToFit()
+                .padding(48)
+                .scaleEffect(0.8)
+                .offset(x: offsetX)
+                .animation(.spring().delay(0.3), value: offsetX)
+                .saturation(saturation)
+
+        }
+        .onAppear {
+            offsetX = 0
+            saturation = 1.4
         }
     }
 }
