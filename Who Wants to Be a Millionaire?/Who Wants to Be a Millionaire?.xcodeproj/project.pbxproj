@@ -31,6 +31,7 @@
 		AC2AD5082B8CEA4B00BC2183 /* CoinAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5072B8CEA4B00BC2183 /* CoinAnimationModel.swift */; };
 		AC2AD50A2B8CEABA00BC2183 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */; };
 		AC2AD50C2B8CEE0000BC2183 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD50B2B8CEE0000BC2183 /* RegistrationView.swift */; };
+		AC2AD50E2B8CF24500BC2183 /* PlayerTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */; };
 		DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */; };
 		DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FC2B8B84320062B649 /* ContentView.swift */; };
 		DEB2B3FF2B8B84350062B649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB2B3FE2B8B84350062B649 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		AC2AD5072B8CEA4B00BC2183 /* CoinAnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAnimationModel.swift; sourceTree = "<group>"; };
 		AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
 		AC2AD50B2B8CEE0000BC2183 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTF.swift; sourceTree = "<group>"; };
 		DEB2B3F72B8B84320062B649 /* Who Wants to Be a Millionaire?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Wants to Be a Millionaire?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Wants_to_Be_a_Millionaire_App.swift; sourceTree = "<group>"; };
 		DEB2B3FC2B8B84320062B649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				AC2AD5022B8CBD9B00BC2183 /* LightAnimation.swift */,
 				AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */,
 				AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */,
+				AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */,
 			);
 			name = Components;
 			path = "Who Wants to Be a Millionaire?/Components";
@@ -293,6 +296,7 @@
 			files = (
 				AC2AD4FF2B8CAD0600BC2183 /* AllQuestionsView.swift in Sources */,
 				AC2AD4F22B8CA0CD00BC2183 /* Background.swift in Sources */,
+				AC2AD50E2B8CF24500BC2183 /* PlayerTF.swift in Sources */,
 				AC2AD4E72B8CA07100BC2183 /* Images.swift in Sources */,
 				DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */,
 				AC2AD4F62B8CA13700BC2183 /* Sounds.swift in Sources */,
