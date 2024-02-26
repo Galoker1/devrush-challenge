@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		77C724432B8BA12300FB9D71 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C724422B8BA12300FB9D71 /* NetworkService.swift */; };
 		77C724462B8BA3AC00FB9D71 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C724452B8BA3AC00FB9D71 /* Entity.swift */; };
-		AC2AD4B72B8B932900BC2183 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */; };
 		AC2AD4BD2B8B96E100BC2183 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4B82B8B96E100BC2183 /* win.mp3 */; };
 		AC2AD4BE2B8B96E100BC2183 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4B92B8B96E100BC2183 /* lose.mp3 */; };
 		AC2AD4BF2B8B96E100BC2183 /* intrigue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */; };
 		AC2AD4C02B8B96E100BC2183 /* millionwin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */; };
 		AC2AD4C12B8B96E100BC2183 /* thinking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BC2B8B96E100BC2183 /* thinking.mp3 */; };
+		AC2AD4E72B8CA07100BC2183 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4E62B8CA07100BC2183 /* Images.swift */; };
+		AC2AD4EA2B8CA07C00BC2183 /* UserDeafaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4E92B8CA07C00BC2183 /* UserDeafaultsService.swift */; };
+		AC2AD4EC2B8CA09200BC2183 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4EB2B8CA09200BC2183 /* SplashView.swift */; };
+		AC2AD4EF2B8CA0A900BC2183 /* Image+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4EE2B8CA0A900BC2183 /* Image+ext.swift */; };
+		AC2AD4F22B8CA0CD00BC2183 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F12B8CA0CD00BC2183 /* Background.swift */; };
+		AC2AD4F42B8CA10600BC2183 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F32B8CA10600BC2183 /* SoundService.swift */; };
+		AC2AD4F62B8CA13700BC2183 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F52B8CA13700BC2183 /* Sounds.swift */; };
 		DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */; };
 		DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FC2B8B84320062B649 /* ContentView.swift */; };
 		DEB2B3FF2B8B84350062B649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB2B3FE2B8B84350062B649 /* Assets.xcassets */; };
@@ -25,12 +31,18 @@
 /* Begin PBXFileReference section */
 		77C724422B8BA12300FB9D71 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		77C724452B8BA3AC00FB9D71 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		AC2AD4B82B8B96E100BC2183 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		AC2AD4B92B8B96E100BC2183 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
 		AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intrigue.mp3; sourceTree = "<group>"; };
 		AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = millionwin.mp3; sourceTree = "<group>"; };
 		AC2AD4BC2B8B96E100BC2183 /* thinking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thinking.mp3; sourceTree = "<group>"; };
+		AC2AD4E62B8CA07100BC2183 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		AC2AD4E92B8CA07C00BC2183 /* UserDeafaultsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDeafaultsService.swift; sourceTree = "<group>"; };
+		AC2AD4EB2B8CA09200BC2183 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashView.swift; path = "Who Wants to Be a Millionaire?/Screens/SplashView.swift"; sourceTree = SOURCE_ROOT; };
+		AC2AD4EE2B8CA0A900BC2183 /* Image+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+ext.swift"; sourceTree = "<group>"; };
+		AC2AD4F12B8CA0CD00BC2183 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		AC2AD4F32B8CA10600BC2183 /* SoundService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		AC2AD4F52B8CA13700BC2183 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 		DEB2B3F72B8B84320062B649 /* Who Wants to Be a Millionaire?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Wants to Be a Millionaire?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Wants_to_Be_a_Millionaire_App.swift; sourceTree = "<group>"; };
 		DEB2B3FC2B8B84320062B649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +74,7 @@
 		AC2AD4B42B8B930000BC2183 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC2AD4E62B8CA07100BC2183 /* Images.swift */,
 				AC2AD4B52B8B931600BC2183 /* Sounds */,
 			);
 			path = Resources;
@@ -70,7 +83,8 @@
 		AC2AD4B52B8B931600BC2183 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */,
+				AC2AD4F32B8CA10600BC2183 /* SoundService.swift */,
+				AC2AD4F52B8CA13700BC2183 /* Sounds.swift */,
 				AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */,
 				AC2AD4B92B8B96E100BC2183 /* lose.mp3 */,
 				AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */,
@@ -79,6 +93,32 @@
 			);
 			path = Sounds;
 			sourceTree = "<group>";
+		};
+		AC2AD4E82B8CA07C00BC2183 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4E92B8CA07C00BC2183 /* UserDeafaultsService.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		AC2AD4ED2B8CA0A900BC2183 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4EE2B8CA0A900BC2183 /* Image+ext.swift */,
+			);
+			name = Extensions;
+			path = "Who Wants to Be a Millionaire?/Extensions";
+			sourceTree = SOURCE_ROOT;
+		};
+		AC2AD4F02B8CA0CD00BC2183 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4F12B8CA0CD00BC2183 /* Background.swift */,
+			);
+			name = Components;
+			path = "Who Wants to Be a Millionaire?/Components";
+			sourceTree = SOURCE_ROOT;
 		};
 		DEB2B3EE2B8B84320062B649 = {
 			isa = PBXGroup;
@@ -99,10 +139,13 @@
 		DEB2B3F92B8B84320062B649 /* Who Wants to Be a Millionaire? */ = {
 			isa = PBXGroup;
 			children = (
-				DEB2B4082B8B9C760062B649 /* Screens */,
 				DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */,
 				DEB2B3FC2B8B84320062B649 /* ContentView.swift */,
+				DEB2B4082B8B9C760062B649 /* Screens */,
+				AC2AD4F02B8CA0CD00BC2183 /* Components */,
+				AC2AD4E82B8CA07C00BC2183 /* UserDefaults */,
 				77C724442B8BA37100FB9D71 /* Network */,
+				AC2AD4ED2B8CA0A900BC2183 /* Extensions */,
 				AC2AD4B42B8B930000BC2183 /* Resources */,
 				DEB2B3FE2B8B84350062B649 /* Assets.xcassets */,
 				DEB2B4002B8B84350062B649 /* Preview Content */,
@@ -121,6 +164,7 @@
 		DEB2B4082B8B9C760062B649 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				AC2AD4EB2B8CA09200BC2183 /* SplashView.swift */,
 				DEB2B4092B8B9C8A0062B649 /* Menu */,
 			);
 			path = Screens;
@@ -209,12 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2AD4F22B8CA0CD00BC2183 /* Background.swift in Sources */,
+				AC2AD4E72B8CA07100BC2183 /* Images.swift in Sources */,
 				DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */,
+				AC2AD4F62B8CA13700BC2183 /* Sounds.swift in Sources */,
 				DEB2B40B2B8B9C9C0062B649 /* MenuView.swift in Sources */,
-				AC2AD4B72B8B932900BC2183 /* SoundPlayer.swift in Sources */,
 				77C724432B8BA12300FB9D71 /* NetworkService.swift in Sources */,
+				AC2AD4EF2B8CA0A900BC2183 /* Image+ext.swift in Sources */,
 				DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */,
+				AC2AD4EA2B8CA07C00BC2183 /* UserDeafaultsService.swift in Sources */,
+				AC2AD4F42B8CA10600BC2183 /* SoundService.swift in Sources */,
 				77C724462B8BA3AC00FB9D71 /* Entity.swift in Sources */,
+				AC2AD4EC2B8CA09200BC2183 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
