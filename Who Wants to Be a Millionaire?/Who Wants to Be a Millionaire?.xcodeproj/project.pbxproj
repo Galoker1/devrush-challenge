@@ -15,16 +15,34 @@
 		77F4A2FE2B8CE46A00E2289A /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F4A2FD2B8CE46A00E2289A /* GameStore.swift */; };
 		77F7F5922B8BD66E00C355F6 /* NetworkServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7F5912B8BD66E00C355F6 /* NetworkServiceMock.swift */; };
 		77F7F5942B8BDB8000C355F6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F7F5932B8BDB8000C355F6 /* Colors.xcassets */; };
-		AC2AD4B72B8B932900BC2183 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */; };
 		AC2AD4BD2B8B96E100BC2183 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4B82B8B96E100BC2183 /* win.mp3 */; };
 		AC2AD4BE2B8B96E100BC2183 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4B92B8B96E100BC2183 /* lose.mp3 */; };
 		AC2AD4BF2B8B96E100BC2183 /* intrigue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */; };
 		AC2AD4C02B8B96E100BC2183 /* millionwin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */; };
 		AC2AD4C12B8B96E100BC2183 /* thinking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC2AD4BC2B8B96E100BC2183 /* thinking.mp3 */; };
+		AC2AD4E72B8CA07100BC2183 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4E62B8CA07100BC2183 /* Images.swift */; };
+		AC2AD4EA2B8CA07C00BC2183 /* UserDeafaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4E92B8CA07C00BC2183 /* UserDeafaultsService.swift */; };
+		AC2AD4EC2B8CA09200BC2183 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4EB2B8CA09200BC2183 /* SplashView.swift */; };
+		AC2AD4EF2B8CA0A900BC2183 /* Image+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4EE2B8CA0A900BC2183 /* Image+ext.swift */; };
+		AC2AD4F22B8CA0CD00BC2183 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F12B8CA0CD00BC2183 /* Background.swift */; };
+		AC2AD4F42B8CA10600BC2183 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F32B8CA10600BC2183 /* SoundService.swift */; };
+		AC2AD4F62B8CA13700BC2183 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F52B8CA13700BC2183 /* Sounds.swift */; };
+		AC2AD4F82B8CA34700BC2183 /* QuestionPlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */; };
+		AC2AD4FA2B8CA63D00BC2183 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F92B8CA63D00BC2183 /* Gradients.swift */; };
+		AC2AD4FD2B8CAB8500BC2183 /* ProgressPlankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4FC2B8CAB8500BC2183 /* ProgressPlankModel.swift */; };
+		AC2AD4FF2B8CAD0600BC2183 /* AllQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4FE2B8CAD0600BC2183 /* AllQuestionsView.swift */; };
+		AC2AD5012B8CB69900BC2183 /* EndGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5002B8CB69900BC2183 /* EndGameView.swift */; };
+		AC2AD5032B8CBD9B00BC2183 /* LightAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5022B8CBD9B00BC2183 /* LightAnimation.swift */; };
+		AC2AD5052B8CE9E500BC2183 /* CoinAnumatableProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5042B8CE9E500BC2183 /* CoinAnumatableProperties.swift */; };
+		AC2AD5082B8CEA4B00BC2183 /* CoinAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5072B8CEA4B00BC2183 /* CoinAnimationModel.swift */; };
+		AC2AD50A2B8CEABA00BC2183 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */; };
+		AC2AD50C2B8CEE0000BC2183 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD50B2B8CEE0000BC2183 /* RegistrationView.swift */; };
+		AC2AD50E2B8CF24500BC2183 /* PlayerTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */; };
 		DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */; };
 		DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FC2B8B84320062B649 /* ContentView.swift */; };
 		DEB2B3FF2B8B84350062B649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB2B3FE2B8B84350062B649 /* Assets.xcassets */; };
 		DEB2B4022B8B84350062B649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB2B4012B8B84350062B649 /* Preview Assets.xcassets */; };
+		DEB2B40B2B8B9C9C0062B649 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B40A2B8B9C9C0062B649 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,17 +54,35 @@
 		77F4A2FD2B8CE46A00E2289A /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
 		77F7F5912B8BD66E00C355F6 /* NetworkServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceMock.swift; sourceTree = "<group>"; };
 		77F7F5932B8BDB8000C355F6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		AC2AD4B82B8B96E100BC2183 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		AC2AD4B92B8B96E100BC2183 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
 		AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intrigue.mp3; sourceTree = "<group>"; };
 		AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = millionwin.mp3; sourceTree = "<group>"; };
 		AC2AD4BC2B8B96E100BC2183 /* thinking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thinking.mp3; sourceTree = "<group>"; };
+		AC2AD4E62B8CA07100BC2183 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		AC2AD4E92B8CA07C00BC2183 /* UserDeafaultsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDeafaultsService.swift; sourceTree = "<group>"; };
+		AC2AD4EB2B8CA09200BC2183 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashView.swift; path = "Who Wants to Be a Millionaire?/Screens/SplashView.swift"; sourceTree = SOURCE_ROOT; };
+		AC2AD4EE2B8CA0A900BC2183 /* Image+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+ext.swift"; sourceTree = "<group>"; };
+		AC2AD4F12B8CA0CD00BC2183 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		AC2AD4F32B8CA10600BC2183 /* SoundService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		AC2AD4F52B8CA13700BC2183 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPlank.swift; sourceTree = "<group>"; };
+		AC2AD4F92B8CA63D00BC2183 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		AC2AD4FC2B8CAB8500BC2183 /* ProgressPlankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlankModel.swift; sourceTree = "<group>"; };
+		AC2AD4FE2B8CAD0600BC2183 /* AllQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllQuestionsView.swift; sourceTree = "<group>"; };
+		AC2AD5002B8CB69900BC2183 /* EndGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameView.swift; sourceTree = "<group>"; };
+		AC2AD5022B8CBD9B00BC2183 /* LightAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightAnimation.swift; sourceTree = "<group>"; };
+		AC2AD5042B8CE9E500BC2183 /* CoinAnumatableProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAnumatableProperties.swift; sourceTree = "<group>"; };
+		AC2AD5072B8CEA4B00BC2183 /* CoinAnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAnimationModel.swift; sourceTree = "<group>"; };
+		AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
+		AC2AD50B2B8CEE0000BC2183 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTF.swift; sourceTree = "<group>"; };
 		DEB2B3F72B8B84320062B649 /* Who Wants to Be a Millionaire?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Wants to Be a Millionaire?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Wants_to_Be_a_Millionaire_App.swift; sourceTree = "<group>"; };
 		DEB2B3FC2B8B84320062B649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEB2B3FE2B8B84350062B649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB2B4012B8B84350062B649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEB2B40A2B8B9C9C0062B649 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +119,8 @@
 		AC2AD4B42B8B930000BC2183 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC2AD4E62B8CA07100BC2183 /* Images.swift */,
+				AC2AD4F92B8CA63D00BC2183 /* Gradients.swift */,
 				AC2AD4B52B8B931600BC2183 /* Sounds */,
 			);
 			path = Resources;
@@ -91,7 +129,8 @@
 		AC2AD4B52B8B931600BC2183 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				AC2AD4B62B8B932900BC2183 /* SoundPlayer.swift */,
+				AC2AD4F32B8CA10600BC2183 /* SoundService.swift */,
+				AC2AD4F52B8CA13700BC2183 /* Sounds.swift */,
 				AC2AD4BA2B8B96E100BC2183 /* intrigue.mp3 */,
 				AC2AD4B92B8B96E100BC2183 /* lose.mp3 */,
 				AC2AD4BB2B8B96E100BC2183 /* millionwin.mp3 */,
@@ -99,6 +138,46 @@
 				AC2AD4B82B8B96E100BC2183 /* win.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AC2AD4E82B8CA07C00BC2183 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4E92B8CA07C00BC2183 /* UserDeafaultsService.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		AC2AD4ED2B8CA0A900BC2183 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4EE2B8CA0A900BC2183 /* Image+ext.swift */,
+			);
+			name = Extensions;
+			path = "Who Wants to Be a Millionaire?/Extensions";
+			sourceTree = SOURCE_ROOT;
+		};
+		AC2AD4F02B8CA0CD00BC2183 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4F12B8CA0CD00BC2183 /* Background.swift */,
+				AC2AD5022B8CBD9B00BC2183 /* LightAnimation.swift */,
+				AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */,
+				AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */,
+				AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */,
+			);
+			name = Components;
+			path = "Who Wants to Be a Millionaire?/Components";
+			sourceTree = SOURCE_ROOT;
+		};
+		AC2AD4FB2B8CAAFF00BC2183 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4FC2B8CAB8500BC2183 /* ProgressPlankModel.swift */,
+				AC2AD5072B8CEA4B00BC2183 /* CoinAnimationModel.swift */,
+				AC2AD5042B8CE9E500BC2183 /* CoinAnumatableProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		DEB2B3EE2B8B84320062B649 = {
@@ -124,7 +203,12 @@
 				DEB2B3FC2B8B84320062B649 /* ContentView.swift */,
 				77F4A2FC2B8CE44800E2289A /* GameModule */,
 				77C7244C2B8BD17400FB9D71 /* GameService.swift */,
+				DEB2B4082B8B9C760062B649 /* Screens */,
+				AC2AD4F02B8CA0CD00BC2183 /* Components */,
+				AC2AD4FB2B8CAAFF00BC2183 /* Models */,
+				AC2AD4E82B8CA07C00BC2183 /* UserDefaults */,
 				77C724442B8BA37100FB9D71 /* Network */,
+				AC2AD4ED2B8CA0A900BC2183 /* Extensions */,
 				AC2AD4B42B8B930000BC2183 /* Resources */,
 				DEB2B3FE2B8B84350062B649 /* Assets.xcassets */,
 				77F7F5932B8BDB8000C355F6 /* Colors.xcassets */,
@@ -139,6 +223,26 @@
 				DEB2B4012B8B84350062B649 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEB2B4082B8B9C760062B649 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4EB2B8CA09200BC2183 /* SplashView.swift */,
+				AC2AD4FE2B8CAD0600BC2183 /* AllQuestionsView.swift */,
+				AC2AD50B2B8CEE0000BC2183 /* RegistrationView.swift */,
+				DEB2B4092B8B9C8A0062B649 /* Menu */,
+				AC2AD5002B8CB69900BC2183 /* EndGameView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DEB2B4092B8B9C8A0062B649 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				DEB2B40A2B8B9C9C0062B649 /* MenuView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,15 +322,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2AD4FF2B8CAD0600BC2183 /* AllQuestionsView.swift in Sources */,
+				AC2AD4F22B8CA0CD00BC2183 /* Background.swift in Sources */,
+				AC2AD50E2B8CF24500BC2183 /* PlayerTF.swift in Sources */,
+				AC2AD4E72B8CA07100BC2183 /* Images.swift in Sources */,
+				DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */,
+				AC2AD4F62B8CA13700BC2183 /* Sounds.swift in Sources */,
+				DEB2B40B2B8B9C9C0062B649 /* MenuView.swift in Sources */,
+				AC2AD4FA2B8CA63D00BC2183 /* Gradients.swift in Sources */,
+				AC2AD5032B8CBD9B00BC2183 /* LightAnimation.swift in Sources */,
+				AC2AD4F82B8CA34700BC2183 /* QuestionPlank.swift in Sources */,
+				AC2AD5082B8CEA4B00BC2183 /* CoinAnimationModel.swift in Sources */,
 				77F7F5922B8BD66E00C355F6 /* NetworkServiceMock.swift in Sources */,
 				77F4A2FE2B8CE46A00E2289A /* GameStore.swift in Sources */,
 				DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */,
 				77C7244D2B8BD17400FB9D71 /* GameService.swift in Sources */,
-				AC2AD4B72B8B932900BC2183 /* SoundPlayer.swift in Sources */,
 				77C724432B8BA12300FB9D71 /* NetworkService.swift in Sources */,
+				AC2AD50C2B8CEE0000BC2183 /* RegistrationView.swift in Sources */,
+				AC2AD5052B8CE9E500BC2183 /* CoinAnumatableProperties.swift in Sources */,
+				AC2AD4EF2B8CA0A900BC2183 /* Image+ext.swift in Sources */,
+				AC2AD5012B8CB69900BC2183 /* EndGameView.swift in Sources */,
 				DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */,
+				AC2AD4EA2B8CA07C00BC2183 /* UserDeafaultsService.swift in Sources */,
+				AC2AD4F42B8CA10600BC2183 /* SoundService.swift in Sources */,
+				AC2AD50A2B8CEABA00BC2183 /* CoinsView.swift in Sources */,
 				77C724482B8BCED200FB9D71 /* QuestionView.swift in Sources */,
 				77C724462B8BA3AC00FB9D71 /* Entity.swift in Sources */,
+				AC2AD4FD2B8CAB8500BC2183 /* ProgressPlankModel.swift in Sources */,
+				AC2AD4EC2B8CA09200BC2183 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  GameStore.swift
 //  Who Wants to Be a Millionaire?
 //
-//  Created by Victor Rubenko on 26.02.2024.
+//  Created by Victor on 26.02.2024.
 //
 
 import SwiftUI

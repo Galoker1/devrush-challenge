@@ -2,7 +2,7 @@
 //  NetworkServiceMock.swift
 //  Who Wants to Be a Millionaire?
 //
-//  Created by Victor Rubenko on 25.02.2024.
+//  Created by Victor on 25.02.2024.
 //
 
 import Foundation
