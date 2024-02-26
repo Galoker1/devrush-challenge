@@ -1,18 +1,38 @@
 //
 //  QuestionPlank.swift
-//  Who Wants to Be a Millionaire?
-//
-//  Created by Artem on 26.02.2024.
 //
 
 import SwiftUI
 
 struct QuestionPlank: View {
+    let number: Int
+    let summ: Int
+    let bg: LinearGradient
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 16)
+            .fill(bg)
+            .frame(height: 38)
+            .overlay(alignment: .leading) {
+                Text("Вопрос \(number)")
+                    .foregroundStyle(.white)
+                    .padding(.leading)
+            }
+            .overlay(alignment: .trailing) {
+                Text(summ != 1000000 ? "\(summ) RUB" : "1 Миллион")
+                    .foregroundStyle(.white)
+                    .padding(.trailing)
+            }
+            .padding(.horizontal, 32)
     }
 }
 
 #Preview {
-    QuestionPlank()
+    VStack {
+        QuestionPlank(number: 3, summ: 1000000, bg: Gradients.blue)
+        QuestionPlank(number: 14, summ: 1000, bg: Gradients.gold)
+        QuestionPlank(number: 11, summ: 1000, bg: Gradients.red)
+        QuestionPlank(number: 14, summ: 1000, bg: Gradients.green)
+        QuestionPlank(number: 14, summ: 5000, bg: Gradients.purple)
+    }
 }

@@ -1,18 +1,60 @@
 //
-//  Gradients.swift
-//  Who Wants to Be a Millionaire?
-//
-//  Created by Artem on 26.02.2024.
+//  Colors.swift
 //
 
 import SwiftUI
 
-struct Gradients: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+enum Gradients {
+    static let red  = LinearGradient(
+        colors: [
+            Color("lightred"),
+            Color("darkred"),
+            Color("lightred"),
+        ],
+        startPoint: .top,
+        endPoint: .bottom
+    )
+    
+    static let purple  = LinearGradient(
+        colors: [
+            Color("lavand"),
+            Color("purple"),
+            Color("lavand"),
+        ],
+        startPoint: .top,
+        endPoint: .bottom
+    )
+
+    static let gold  = LinearGradient(
+        colors: [
+            Color("lightgold"),
+            Color("darkgold"),
+            Color("lightgold"),
+        ],
+        startPoint: .top,
+        endPoint: .bottom
+    )
+    
+    static let blue  = LinearGradient(
+        colors: [
+            Color("sea"),
+            Color("darkblue"),
+            Color("sea"),
+        ],
+        startPoint: .top,
+        endPoint: .bottom
+    )
+    
+    static let green  = LinearGradient(
+        colors: [
+            Color("lightgreen"),
+            Color("darkgreen"),
+            Color("lightgreen"),
+        ],
+        startPoint: .top,
+        endPoint: .bottom
+    )
 }
 
-#Preview {
-    Gradients()
-}
+
+
