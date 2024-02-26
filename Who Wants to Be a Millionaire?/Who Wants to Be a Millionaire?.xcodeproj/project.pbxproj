@@ -21,6 +21,10 @@
 		AC2AD4F22B8CA0CD00BC2183 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F12B8CA0CD00BC2183 /* Background.swift */; };
 		AC2AD4F42B8CA10600BC2183 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F32B8CA10600BC2183 /* SoundService.swift */; };
 		AC2AD4F62B8CA13700BC2183 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F52B8CA13700BC2183 /* Sounds.swift */; };
+		AC2AD4F82B8CA34700BC2183 /* QuestionPlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */; };
+		AC2AD4FA2B8CA63D00BC2183 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4F92B8CA63D00BC2183 /* Gradients.swift */; };
+		AC2AD4FD2B8CAB8500BC2183 /* ProgressPlankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4FC2B8CAB8500BC2183 /* ProgressPlankModel.swift */; };
+		AC2AD4FF2B8CAD0600BC2183 /* AllQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD4FE2B8CAD0600BC2183 /* AllQuestionsView.swift */; };
 		DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */; };
 		DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FC2B8B84320062B649 /* ContentView.swift */; };
 		DEB2B3FF2B8B84350062B649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB2B3FE2B8B84350062B649 /* Assets.xcassets */; };
@@ -43,6 +47,10 @@
 		AC2AD4F12B8CA0CD00BC2183 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		AC2AD4F32B8CA10600BC2183 /* SoundService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
 		AC2AD4F52B8CA13700BC2183 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPlank.swift; sourceTree = "<group>"; };
+		AC2AD4F92B8CA63D00BC2183 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		AC2AD4FC2B8CAB8500BC2183 /* ProgressPlankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPlankModel.swift; sourceTree = "<group>"; };
+		AC2AD4FE2B8CAD0600BC2183 /* AllQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllQuestionsView.swift; sourceTree = "<group>"; };
 		DEB2B3F72B8B84320062B649 /* Who Wants to Be a Millionaire?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Wants to Be a Millionaire?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Wants_to_Be_a_Millionaire_App.swift; sourceTree = "<group>"; };
 		DEB2B3FC2B8B84320062B649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				AC2AD4E62B8CA07100BC2183 /* Images.swift */,
+				AC2AD4F92B8CA63D00BC2183 /* Gradients.swift */,
 				AC2AD4B52B8B931600BC2183 /* Sounds */,
 			);
 			path = Resources;
@@ -115,10 +124,19 @@
 			isa = PBXGroup;
 			children = (
 				AC2AD4F12B8CA0CD00BC2183 /* Background.swift */,
+				AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */,
 			);
 			name = Components;
 			path = "Who Wants to Be a Millionaire?/Components";
 			sourceTree = SOURCE_ROOT;
+		};
+		AC2AD4FB2B8CAAFF00BC2183 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AD4FC2B8CAB8500BC2183 /* ProgressPlankModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
 		};
 		DEB2B3EE2B8B84320062B649 = {
 			isa = PBXGroup;
@@ -143,6 +161,7 @@
 				DEB2B3FC2B8B84320062B649 /* ContentView.swift */,
 				DEB2B4082B8B9C760062B649 /* Screens */,
 				AC2AD4F02B8CA0CD00BC2183 /* Components */,
+				AC2AD4FB2B8CAAFF00BC2183 /* Models */,
 				AC2AD4E82B8CA07C00BC2183 /* UserDefaults */,
 				77C724442B8BA37100FB9D71 /* Network */,
 				AC2AD4ED2B8CA0A900BC2183 /* Extensions */,
@@ -165,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				AC2AD4EB2B8CA09200BC2183 /* SplashView.swift */,
+				AC2AD4FE2B8CAD0600BC2183 /* AllQuestionsView.swift */,
 				DEB2B4092B8B9C8A0062B649 /* Menu */,
 			);
 			path = Screens;
@@ -253,17 +273,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2AD4FF2B8CAD0600BC2183 /* AllQuestionsView.swift in Sources */,
 				AC2AD4F22B8CA0CD00BC2183 /* Background.swift in Sources */,
 				AC2AD4E72B8CA07100BC2183 /* Images.swift in Sources */,
 				DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */,
 				AC2AD4F62B8CA13700BC2183 /* Sounds.swift in Sources */,
 				DEB2B40B2B8B9C9C0062B649 /* MenuView.swift in Sources */,
+				AC2AD4FA2B8CA63D00BC2183 /* Gradients.swift in Sources */,
+				AC2AD4F82B8CA34700BC2183 /* QuestionPlank.swift in Sources */,
 				77C724432B8BA12300FB9D71 /* NetworkService.swift in Sources */,
 				AC2AD4EF2B8CA0A900BC2183 /* Image+ext.swift in Sources */,
 				DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */,
 				AC2AD4EA2B8CA07C00BC2183 /* UserDeafaultsService.swift in Sources */,
 				AC2AD4F42B8CA10600BC2183 /* SoundService.swift in Sources */,
 				77C724462B8BA3AC00FB9D71 /* Entity.swift in Sources */,
+				AC2AD4FD2B8CAB8500BC2183 /* ProgressPlankModel.swift in Sources */,
 				AC2AD4EC2B8CA09200BC2183 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
