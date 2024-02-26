@@ -42,6 +42,7 @@ extension NetworkService: NetworkServiceProtocol {
         guard let url = urlComponents?.url else {
             return .failure(.invalidURL)
         }
+        print(url)
         
         guard let (data, _) = try? await session.data(from: url) else {
             return .failure(.failedRequest)

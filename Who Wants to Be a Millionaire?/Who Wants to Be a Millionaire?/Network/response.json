@@ -1,0 +1,123 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Comics",
+      "question": "Who is Batman?",
+      "correct_answer": "Bruce Wayne",
+      "incorrect_answers": [
+        "Clark Kent",
+        "Barry Allen",
+        "Tony Stark"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "From what show is the character &quot;James Doakes&quot;? ",
+      "correct_answer": "Dexter",
+      "incorrect_answers": [
+        "Marvel&#039;s Daredevil",
+        "Boardwalk Empire",
+        "The Walking Dead"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Vehicles",
+      "question": "What year did the Chevrolet LUV mini truck make its debut?",
+      "correct_answer": "1972",
+      "incorrect_answers": [
+        "1982",
+        "1975",
+        "1973"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "How many countries does the United States share a land border with?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the last song on the first Panic! At the Disco album?",
+      "correct_answer": "Build God, Then We&#039;ll Talk",
+      "incorrect_answers": [
+        "Nails for Breakfast, Tacks for Snacks",
+        "I Write Sins Not Tragedies",
+        "Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off"
+      ]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "The retail disc of Tony Hawk&#039;s Pro Skater 5 only comes with the tutorial.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "General Knowledge",
+      "question": "Which country, not including Japan, has the most people of japanese decent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": [
+        "China",
+        "South Korea",
+        "United States of America"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is Gabe Newell&#039;s favorite class in Team Fortress 2?",
+      "correct_answer": "Spy",
+      "incorrect_answers": [
+        "Heavy",
+        "Medic",
+        "Pyro"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "How long did the Warsaw Uprising during World War II last?",
+      "correct_answer": "63 Days",
+      "incorrect_answers": [
+        "20 Days",
+        "55 Days",
+        "224 Days"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Film",
+      "question": "What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+      "correct_answer": "Labrador Retriever",
+      "incorrect_answers": [
+        "Golden Retriever",
+        "Dalmatian",
+        "Shiba Inu"
+      ]
+    }
+  ]
+}
