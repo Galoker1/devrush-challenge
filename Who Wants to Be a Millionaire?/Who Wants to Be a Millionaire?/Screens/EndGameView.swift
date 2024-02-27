@@ -7,6 +7,7 @@ import SwiftUI
 struct EndGameView: View {
     
     @State var opacity: Double = 0
+    @EnvironmentObject var vm: GameLogic
     
     var body: some View {
         ZStack {
@@ -26,7 +27,7 @@ struct EndGameView: View {
                     .resizableToFit()
                     .frame(width: UIScreen.main.bounds.width*0.6)
                 
-                Text("You losed on 3 question")
+                Text("You losed on \(vm.currentQuestion) question")
                     .font(.title2)
                     .foregroundStyle(.white)
                     .padding(.top)
@@ -64,4 +65,5 @@ struct EndGameView: View {
 
 #Preview {
     EndGameView()
+        .environmentObject(GameLogic())
 }

@@ -6,6 +6,7 @@ import SwiftUI
 
 struct RegistrationView: View {
     
+    @EnvironmentObject var vm: GameLogic
     @State var playerName: String = ""
     
     var body: some View {
@@ -24,7 +25,10 @@ struct RegistrationView: View {
                 
                 PlayerTF(text: $playerName)
                 
-                RegistrationBtn {}
+                RegistrationBtn {
+                    vm.isGame = true
+                    vm.playerName = playerName
+                }
                 
                 Spacer()
             }
