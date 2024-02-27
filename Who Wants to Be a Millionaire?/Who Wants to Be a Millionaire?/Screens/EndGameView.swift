@@ -8,6 +8,7 @@ struct EndGameView: View {
     
     @State var opacity: Double = 0
     @EnvironmentObject var vm: GameLogic
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         ZStack {
@@ -34,7 +35,10 @@ struct EndGameView: View {
                 
                 Spacer()
                 
-                PlayAgainBtn(action: {})
+                PlayAgainBtn(action: {
+                    vm.resetGame()
+                    dismiss()
+                })
                 
             }
             .opacity(opacity)

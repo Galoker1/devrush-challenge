@@ -9,15 +9,21 @@ struct QuestionView: View {
     
     
     var body: some View {
-        Button {
-            vm.isGame = false
-            vm.endGame = true
-        } label: {
-            Text("Завершить игру")
-                .foregroundStyle(.white)
-                .font(.largeTitle)
-                .padding()
-                .background(Gradients.blue)
+        ZStack {
+            Background(image: BgImage.empty)
+            Button {
+                vm.isGame = false
+                vm.endGame = true
+            } label: {
+                Text("Завершить игру")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .padding()
+                    .background(Gradients.blue)
+            }
+        }
+        .overlay(alignment: .topTrailing) {
+            DismissBtn()
         }
     }
 }

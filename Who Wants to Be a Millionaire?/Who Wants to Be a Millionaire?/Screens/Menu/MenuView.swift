@@ -13,14 +13,8 @@ struct MenuView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                GeometryReader { geometry in
-                    Image("EmptyBackground")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: geometry.size.width, height: geometry.size.height)
-                        .clipped() // Обрезать изображение, чтобы оно не выходило за пределы экрана
-                }
-                .edgesIgnoringSafeArea(.all)
+                Background(image: BgImage.empty)
+                
                 VStack {
                     Image("Logo")
                         .imageScale(.large)

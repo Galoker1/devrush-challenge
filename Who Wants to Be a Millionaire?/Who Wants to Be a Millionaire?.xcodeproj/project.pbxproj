@@ -39,6 +39,8 @@
 		AC2AD5392B8E9A3500BC2183 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5382B8E9A3500BC2183 /* ResultsView.swift */; };
 		AC2AD53C2B8E9B1B00BC2183 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD53B2B8E9B1B00BC2183 /* MenuButton.swift */; };
 		AC2AD53E2B8E9D5600BC2183 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD53D2B8E9D5600BC2183 /* QuestionView.swift */; };
+		AC2AD5402B8EA29F00BC2183 /* DismissBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD53F2B8EA29F00BC2183 /* DismissBtn.swift */; };
+		AC2AD5422B8EA7C900BC2183 /* UIApplication+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5412B8EA7C900BC2183 /* UIApplication+ext.swift */; };
 		DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */; };
 		DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FC2B8B84320062B649 /* ContentView.swift */; };
 		DEB2B3FF2B8B84350062B649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB2B3FE2B8B84350062B649 /* Assets.xcassets */; };
@@ -79,6 +81,8 @@
 		AC2AD5382B8E9A3500BC2183 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		AC2AD53B2B8E9B1B00BC2183 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		AC2AD53D2B8E9D5600BC2183 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		AC2AD53F2B8EA29F00BC2183 /* DismissBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissBtn.swift; sourceTree = "<group>"; };
+		AC2AD5412B8EA7C900BC2183 /* UIApplication+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+ext.swift"; sourceTree = "<group>"; };
 		DEB2B3F72B8B84320062B649 /* Who Wants to Be a Millionaire?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Wants to Be a Millionaire?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Wants_to_Be_a_Millionaire_App.swift; sourceTree = "<group>"; };
 		DEB2B3FC2B8B84320062B649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				AC2AD4EE2B8CA0A900BC2183 /* Image+ext.swift */,
+				AC2AD5412B8EA7C900BC2183 /* UIApplication+ext.swift */,
 				AC2AD5322B8E92C600BC2183 /* AnyTransition+ext.swift */,
 			);
 			name = Extensions;
@@ -153,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				AC2AD4F12B8CA0CD00BC2183 /* Background.swift */,
+				AC2AD53F2B8EA29F00BC2183 /* DismissBtn.swift */,
 				AC2AD5022B8CBD9B00BC2183 /* LightAnimation.swift */,
 				AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */,
 				AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */,
@@ -315,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2AD5422B8EA7C900BC2183 /* UIApplication+ext.swift in Sources */,
 				AC2AD4FF2B8CAD0600BC2183 /* AllQuestionsView.swift in Sources */,
 				AC2AD4F22B8CA0CD00BC2183 /* Background.swift in Sources */,
 				AC2AD50E2B8CF24500BC2183 /* PlayerTF.swift in Sources */,
@@ -328,6 +335,7 @@
 				AC2AD53E2B8E9D5600BC2183 /* QuestionView.swift in Sources */,
 				AC2AD5082B8CEA4B00BC2183 /* CoinAnimationModel.swift in Sources */,
 				77C724432B8BA12300FB9D71 /* NetworkService.swift in Sources */,
+				AC2AD5402B8EA29F00BC2183 /* DismissBtn.swift in Sources */,
 				AC2AD5352B8E9A0F00BC2183 /* RulesView.swift in Sources */,
 				AC2AD5372B8E9A1A00BC2183 /* GameView.swift in Sources */,
 				AC2AD50C2B8CEE0000BC2183 /* RegistrationView.swift in Sources */,

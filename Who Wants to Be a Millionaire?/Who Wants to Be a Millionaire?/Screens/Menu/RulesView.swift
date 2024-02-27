@@ -14,6 +14,9 @@ struct RulesView: View {
             Text("Экран правил")
                 .font(.largeTitle)
         }
+        .overlay(alignment: .topTrailing) {
+            DismissBtn()
+        }
         .navigationBarHidden(true)
     }
 }

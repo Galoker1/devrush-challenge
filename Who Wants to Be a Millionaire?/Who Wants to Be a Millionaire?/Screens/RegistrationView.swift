@@ -12,7 +12,12 @@ struct RegistrationView: View {
     var body: some View {
         ZStack {
             Background(image: BgImage.money)
+             
             CoinsView()
+                .onTapGesture {
+                    UIApplication.shared.endEditing()
+                }
+               
             
             VStack {
                 Image("Logo")
@@ -42,13 +47,13 @@ struct RegistrationView: View {
             RoundedRectangle(cornerRadius: 20)
                 .fill(Color("lightgreen"))
                 .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-                .padding(80)
                 .overlay {
                     Text("Регистрация")
                         .foregroundStyle(.white)
                         .font(.largeTitle)
                 }
         }
+        .padding(40)
     }
 }
 

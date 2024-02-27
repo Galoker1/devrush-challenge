@@ -12,8 +12,12 @@ struct ResultsView: View {
             Text("Экран результатов")
                 .font(.largeTitle)
         }
+        .overlay(alignment: .topTrailing) {
+            DismissBtn()
+        }
         .navigationBarHidden(true)
     }
+    
 }
 
 #Preview {
