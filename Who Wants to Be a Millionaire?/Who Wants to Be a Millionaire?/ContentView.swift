@@ -1,21 +1,26 @@
 //
 //  ContentView.swift
-//  Who Wants to Be a Millionaire?
-//
-//  Created by Егор  Хлямов on 25.02.2024.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var vm = GameLogic()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            if vm.isSplash {
+                SplashView()
+                    .transition(.blur)
+                    .environmentObject(vm)
+                   
+            } else {
+                MenuView()
+                    .transition(.slide)
+                    .environmentObject(vm)
+            }
         }
-        .padding()
     }
 }
 

@@ -47,6 +47,7 @@ struct CoinsView: View {
             }
             .drawingGroup()
             .onAppear {
+                vm.coins = []
                 vm.updateDolars()
                 radians = 1
                 saturation = 1
