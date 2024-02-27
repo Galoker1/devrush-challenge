@@ -1,5 +1,5 @@
 //
-//  QuestionView.swift
+//  GameView.swift
 //  Who Wants to Be a Millionaire?
 //
 //  Created by Victor on 25.02.2024.
@@ -7,20 +7,29 @@
 
 import SwiftUI
 
-struct QuestionView: View {
+struct GameView: View {
     
     @ObservedObject private var store = GameStore()
+    @State private var scale = 1.0
     
     var body: some View {
         ZStack {
-            Image(.frame)
+            Image(.emptyBackground)
                 .resizable()
                 .ignoresSafeArea()
             Group {
                 switch store.state {
+                case .list(let model):
+                    QustionsListView(current: model.index, allAmount: model.allAmounts)
                 case .blank:
-                    Text("blank")
-                case .question(let questionRoundModel):
+                    VStack {
+                        Image(.logo)
+                            .scaleEffect(scale)
+                            .animation(.easeInOut(duration: 2).repeatForever(), value: scale)
+                        Text("Loading")
+                            .font(.title)
+                    }
+                case .question(let model):
                     VStack {
                         Group {
                             HStack {
@@ -28,12 +37,12 @@ struct QuestionView: View {
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 85, height: 85)
-                                Text(questionRoundModel.question)
+                                Text(model.question)
                                     .frame(maxWidth: .infinity)
                             }
                             HStack {
-                                Text("Вопрос \(questionRoundModel.index)")
-                                Text("\(questionRoundModel.amount) RUB")
+                                Text("Вопрос \(model.index)")
+                                Text("\(model.amount) RUB")
                                     .frame(maxWidth: .infinity, alignment: .trailing)
                             }
                         }
@@ -41,7 +50,7 @@ struct QuestionView: View {
                         
                         ScrollView {
                             VStack {
-                                ForEach(questionRoundModel.answers) {
+                                ForEach(model.answers) {
                                     answer in
                                     
                                     Button(
@@ -56,15 +65,7 @@ struct QuestionView: View {
                                             }
                                             .padding(EdgeInsets(top: 15, leading: 14, bottom: 15, trailing: 14))
                                             .background(
-                                                LinearGradient(
-                                                    colors: [
-                                                        Color.blueLight,
-                                                        Color.blueDark,
-                                                        Color.blueLight,
-                                                    ],
-                                                    startPoint: .top,
-                                                    endPoint: .bottom
-                                                )
+                                                store.selectedAnswer == answer.value ? Gradients.gold : Gradients.blue
                                             )
                                             .clipShape(.rect(cornerRadius: 16))
                                             .overlay(
@@ -73,13 +74,17 @@ struct QuestionView: View {
                                             )
                                         }
                                     )
+                                    .disabled(!store.selectedAnswer.isEmpty)
                                     .padding(EdgeInsets(top: 15, leading: 42, bottom: 15, trailing: 42))
                                 }
                             }
                         }
                         
+                        Text("\(store.timeRemaining)")
+                            .font(.system(size: 20, weight: .semibold))
+                        
                         HStack {
-                            ForEach(questionRoundModel.lifelines) {
+                            ForEach(model.lifelines) {
                                 lifeline in
                                 Button(
                                     action: {
@@ -105,55 +110,37 @@ struct QuestionView: View {
                         .frame(height: 85)
                         .padding(.horizontal)
                     }
-                case .result(let resultRoundModel):
-                    GeometryReader {
-                        geometry in
-                        
-                        VStack(alignment: .center) {
-                            Image(.logo)
-                                .resizable()
-                                .frame(width: geometry.size.width * 0.5, height: geometry.size.width * 0.5)
-                                .scaledToFit()
-                            switch resultRoundModel.status {
-                            case .win:
-                                Text("You win 1 000 000!")
-                                    .font(.system(size: 24, weight: .medium))
-                            case .lose:
-                                Text("You losed")
-                                    .font(.system(size: 24, weight: .medium))
-                                if resultRoundModel.sum != .zero {
-                                    Text("But get \(resultRoundModel.sum) RUB")
-                                }
-                                Spacer()
-                                Button(
-                                    action: {
-                                        store.send(.newGame)
-                                    },
-                                    label: {
-                                        Text("PLAY AGAIN")
-                                            .font(.system(size: 32, weight: .medium))
-                                            .padding(32)
-                                            .background(.green)
-                                            .clipShape(.rect(cornerRadius: 20))
-                                    }
-                                )
-                                .padding(.init(top: .zero, leading: .zero, bottom: 84, trailing: .zero))
-                            }
+                case .result(let model):
+                    EndGameView(
+                        questionIndex: model.questionIndex,
+                        win: model.win,
+                        prize: model.prize,
+                        newGameClosure: {
+                            store.send(.newGame)
                         }
-                        .frame(width: geometry.size.width, height: geometry.size.height)
-                    }
+                    )
                 }
             }
             .foregroundStyle(.white)
         }
+        .sheet(
+            isPresented: $store.showVote,
+            content: {
+                GameVoteView(data: store.voteData)
+            }
+        )
         .onAppear {
             store.send(.newGame)
+            scale = 1.2
+        }
+        .onDisappear {
+            store.send(.close)
         }
     }
 }
 
 #Preview {
-    QuestionView()
+    GameView()
 }
 
 extension Color {

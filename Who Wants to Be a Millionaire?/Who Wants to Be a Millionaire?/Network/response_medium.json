@@ -1,0 +1,533 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Sports",
+      "question": "What is the most common type of pitch thrown by pitchers in baseball?",
+      "correct_answer": "Fastball",
+      "incorrect_answers": [
+        "Slowball",
+        "Screwball",
+        "Palmball"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Portal, what color is the Intelligence Core?",
+      "correct_answer": "Blue",
+      "incorrect_answers": [
+        "Purple",
+        "Red",
+        "Orange"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Which data structure does FILO apply to?",
+      "correct_answer": "Stack",
+      "incorrect_answers": [
+        "Queue",
+        "Heap",
+        "Tree"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Which ocean borders the west coast of the United States?",
+      "correct_answer": "Pacific",
+      "incorrect_answers": [
+        "Atlantic",
+        "Indian",
+        "Arctic"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mythology",
+      "question": "Hera is god of...",
+      "correct_answer": "Marriage",
+      "incorrect_answers": [
+        "Agriculture",
+        "Sea",
+        "War"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "In the Doctor Who universe, how many times can a time lord normally regenerate?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "11",
+        "13",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the robot in the 1951 science fiction film classic &#039;The Day the Earth Stood Still&#039;?",
+      "correct_answer": "Gort",
+      "incorrect_answers": [
+        "Robby",
+        "Colossus",
+        "Box"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What number does the Roman numeral &quot;D&quot; stand for?",
+      "correct_answer": "500",
+      "incorrect_answers": [
+        "100",
+        "1000",
+        "50"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the Kingdom Hearts series, which is not an optional boss you can fight?",
+      "correct_answer": "Master Yen Sid",
+      "incorrect_answers": [
+        "Sephiroth",
+        "Julius",
+        "Kurt Zisa"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "Who is the only voice actor to have a speaking part in all of the Disney Pixar feature films? ",
+      "correct_answer": "John Ratzenberger",
+      "incorrect_answers": [
+        "Tom Hanks",
+        "Dave Foley",
+        "Geoffrey Rush"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Books",
+      "question": "In The Lies of Locke Lamora, what title is Locke known by in the criminal world?",
+      "correct_answer": "The Thorn of Camorr",
+      "incorrect_answers": [
+        "The Rose of the Marrows",
+        "The Thorn of Emberlain",
+        "The Thorn of the Marrows"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "Who is the founder of Palantir?",
+      "correct_answer": "Peter Thiel",
+      "incorrect_answers": [
+        "Mark Zuckerberg",
+        "Marc Benioff",
+        "Jack Dorsey"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "The architect known as Le Corbusier was an important figure in what style of architecture?",
+      "correct_answer": "Modernism",
+      "incorrect_answers": [
+        "Neoclassical",
+        "Baroque",
+        "Gothic Revival"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What is the name of the final villain in the manga series &quot;Bleach&quot;?",
+      "correct_answer": "Yhwach",
+      "incorrect_answers": [
+        "Juha Bach",
+        "Yuhabah",
+        "Juhabach"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What was the name of the security vulnerability found in Bash in 2014?",
+      "correct_answer": "Shellshock",
+      "incorrect_answers": [
+        "Heartbleed",
+        "Bashbug",
+        "Stagefright"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which soccer team won the Copa Am&eacute;rica 2015 Championship ?",
+      "correct_answer": "Chile",
+      "incorrect_answers": [
+        "Argentina",
+        "Brazil",
+        "Paraguay"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "The name of technology company HP stands for what?",
+      "correct_answer": "Hewlett-Packard",
+      "incorrect_answers": [
+        "Howard Packmann",
+        "Husker-Pollosk",
+        "Hellman-Pohl"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "Which buzzword did Apple Inc. use to describe their removal of the headphone jack?",
+      "correct_answer": "Courage",
+      "incorrect_answers": [
+        "Innovation",
+        "Revolution",
+        "Bravery"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Politics",
+      "question": "In June 2017, Saudi Arabia and Egypt broke off ties with which country over its supposed support for terrorism?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "Bahrain",
+        "United States of America",
+        "Russia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "Which of the following is NOT a passive electrical component?",
+      "correct_answer": "Transistor",
+      "incorrect_answers": [
+        "Resistor",
+        "Capacitor",
+        "Inductor"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "What is the scientific name of the red fox?",
+      "correct_answer": "Vulpes Vulpes",
+      "incorrect_answers": [
+        "Vulpes Redus",
+        "Red Fox",
+        "Vulpes Vulpie"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the Super Mario Bros. series, what game is the  &quot;Carrot&quot; power-up from?",
+      "correct_answer": "Super Mario Land 2: The 6 Golden Coins",
+      "incorrect_answers": [
+        "Super Mario World",
+        "Super Mario Land",
+        "Super Mario 3D Land"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "What is the capital of Denmark?",
+      "correct_answer": "Copenhagen",
+      "incorrect_answers": [
+        "Aarhus",
+        "Odense",
+        "Aalborg"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What vault in the video game &quot;Fallout 3&quot; is the home of multiple clones named Gary?",
+      "correct_answer": "Vault 108",
+      "incorrect_answers": [
+        "Vault 101",
+        "Vault 87",
+        "Vault 21"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which character in the &quot;Animal Crossing&quot; series uses the phrase &quot;zip zoom&quot; when talking to the player?",
+      "correct_answer": "Scoot",
+      "incorrect_answers": [
+        "Drake",
+        "Bill",
+        "Mallary"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What is the name of the former country that was succeeded by countries such as Serbia, Croatia and Slovenia?",
+      "correct_answer": "Yugoslavia",
+      "incorrect_answers": [
+        "Czechoslovakia",
+        "Abkhazia",
+        "South Ossetia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "How tall is One World Trade Center in New York City?",
+      "correct_answer": "1,776 ft",
+      "incorrect_answers": [
+        "1,888 ft",
+        "1,225 ft",
+        "1,960 ft"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What video game engine does the videogame Quake 2 run in?",
+      "correct_answer": "iD Tech 2",
+      "incorrect_answers": [
+        "iD Tech 3",
+        "iD Tech 1",
+        "Unreal Engine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What is the first weapon you acquire in Half-Life?",
+      "correct_answer": "A crowbar",
+      "incorrect_answers": [
+        "A pistol",
+        "The H.E.V suit",
+        "Your fists"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of the band Coldplay?",
+      "correct_answer": "Chris Martin",
+      "incorrect_answers": [
+        "Chris Isaak",
+        "Chris Wallace",
+        "Chris Connelly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which of the following player scored a hat-trick during their Manchester United debut?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "Cristiano Ronaldo",
+        "Robin Van Persie",
+        "David Beckham"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+      "correct_answer": "Amazon",
+      "incorrect_answers": [
+        "eBay",
+        "Overstock",
+        "Shopify"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the first interactive movie video game?",
+      "correct_answer": "Astron Belt",
+      "incorrect_answers": [
+        "Dragon&#039;s Lair",
+        "Cube Quest",
+        "M.A.C.H. 3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "In which English county is Stonehenge?",
+      "correct_answer": "Wiltshire",
+      "incorrect_answers": [
+        "Somerset",
+        "Cumbria",
+        "Herefordshire"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which ones of these Mario Kart games was made for the Gameboy Advance?",
+      "correct_answer": "Mario Kart: Super Circuit",
+      "incorrect_answers": [
+        "Mario Kart: Double Dash",
+        "Mario Kart 64",
+        "Super Mario Kart"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "What was the first sport to have been played on the moon?",
+      "correct_answer": "Golf",
+      "incorrect_answers": [
+        "Football",
+        "Tennis",
+        "Soccer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Which one of these rulers did not belong to the Habsburg dynasty?",
+      "correct_answer": "Philip V",
+      "incorrect_answers": [
+        "Charles V",
+        "Philip II",
+        "Francis Joseph"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+      "correct_answer": "Heat Sink",
+      "incorrect_answers": [
+        "CPU Vent",
+        "Temperature Decipator",
+        "Heat Vent"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What is the name of the machine that fails and essentially dooms mankind in the beginning of the first Half-Life game?",
+      "correct_answer": "Anti-mass spectrometer",
+      "incorrect_answers": [
+        "Oscillation generator",
+        "Dark fusion reactor",
+        "Dark fusion resonator"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What is the name of the inspector in the series &quot;On the Buses&quot;?",
+      "correct_answer": "Blakey",
+      "incorrect_answers": [
+        "Harper",
+        "Naily",
+        "Gally"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "In flight systems, what does the initialism &quot;TCAS&quot; stand for?",
+      "correct_answer": "Traffic Collision Avoidance System",
+      "incorrect_answers": [
+        "Traffic Communication Alert System",
+        "Traffic Configuration Alignment System",
+        "Traffic Call-sign Abbreviation System"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "How many voice channels does the Super Nintendo Entertainment System support?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "6",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science &amp; Nature",
+      "question": "In the Scoville scale, what is the hottest chemical?",
+      "correct_answer": "Resiniferatoxin",
+      "incorrect_answers": [
+        "Capsaicin",
+        "Dihydrocapsaicin",
+        "Tinyatoxin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Who did the score to the original Blade Runner?",
+      "correct_answer": "Vangelis",
+      "incorrect_answers": [
+        "Kitaro",
+        "Yanni",
+        "Enya"
+      ]
+    }
+  ]
+}

@@ -23,4 +23,36 @@ struct QuestionEntity: Decodable, Identifiable {
     let question: String
     let correctAnswer: String
     let incorrectAnswers: [String]
+    
+    var fQuestion: String {
+        question.fromHTML()
+    }
+    
+    var fCorrectAnswer: String {
+        correctAnswer.fromHTML()
+    }
+    
+    var fIncorrectAnswers: [String] {
+        incorrectAnswers.map { $0.fromHTML() }
+    }
+}
+
+private extension String {
+    func fromHTML() -> String {
+        guard let data = data(using: .utf8) else {
+            return ""
+        }
+        
+        guard let aString = try? NSMutableAttributedString(
+            data: data,
+            options: [
+                .documentType: NSAttributedString.DocumentType.html,
+                .characterEncoding: String.Encoding.utf8.rawValue
+            ],
+            documentAttributes: nil
+        ) else {
+            return ""
+        }
+        return aString.string
+    }
 }
