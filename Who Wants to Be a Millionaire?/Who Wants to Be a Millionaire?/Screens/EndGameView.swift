@@ -44,7 +44,7 @@ struct EndGameView: View {
                 .font(.title2)
                 Spacer()
                 
-                PlayAgainBtn(action: {})
+                playAgainBtn()
                 
             }
             .opacity(opacity)
@@ -55,7 +55,7 @@ struct EndGameView: View {
         }
     }
     
-    func PlayAgainBtn(action: @escaping () -> Void) -> some View {
+    func playAgainBtn() -> some View {
         Button {
             newGameClosure()
         } label: {

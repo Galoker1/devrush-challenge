@@ -9,11 +9,14 @@ struct Background: View {
     let image: String
     
     var body: some View {
-        ZStack {
+        
+        GeometryReader { geometry in
             Image(image)
                 .resizableToFill()
-                .ignoresSafeArea()
+                .frame(width: geometry.size.width, height: geometry.size.height)
+                .clipped()
         }
+        .ignoresSafeArea()
     }
 }
 

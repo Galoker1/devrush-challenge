@@ -58,6 +58,7 @@ struct MenuView: View {
                 }
             }
         }
+        .navigationViewStyle(.stack)
     }
 }
 

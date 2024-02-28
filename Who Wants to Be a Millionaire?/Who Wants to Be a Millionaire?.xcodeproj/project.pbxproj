@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		777534252B8F95F6006B9097 /* AnyTransition+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5322B8E92C600BC2183 /* AnyTransition+ext.swift */; };
+		777534262B8F95F8006B9097 /* UIApplication+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5412B8EA7C900BC2183 /* UIApplication+ext.swift */; };
 		77ADA40F2B8E76DC0073A410 /* GameVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADA40E2B8E76DC0073A410 /* GameVoteView.swift */; };
 		77AFB5642B8EA213000AB92E /* response_medium.json in Resources */ = {isa = PBXBuildFile; fileRef = 77AFB5602B8EA19E000AB92E /* response_medium.json */; };
 		77AFB5652B8EA216000AB92E /* response_hard.json in Resources */ = {isa = PBXBuildFile; fileRef = 77AFB5622B8EA1A9000AB92E /* response_hard.json */; };
@@ -39,6 +41,10 @@
 		AC2AD50A2B8CEABA00BC2183 /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */; };
 		AC2AD50C2B8CEE0000BC2183 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD50B2B8CEE0000BC2183 /* RegistrationView.swift */; };
 		AC2AD50E2B8CF24500BC2183 /* PlayerTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */; };
+		AC2AD5352B8E9A0F00BC2183 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5342B8E9A0F00BC2183 /* RulesView.swift */; };
+		AC2AD5392B8E9A3500BC2183 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD5382B8E9A3500BC2183 /* ResultsView.swift */; };
+		AC2AD53C2B8E9B1B00BC2183 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD53B2B8E9B1B00BC2183 /* MenuButton.swift */; };
+		AC2AD5402B8EA29F00BC2183 /* DismissBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AD53F2B8EA29F00BC2183 /* DismissBtn.swift */; };
 		DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */; };
 		DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2B3FC2B8B84320062B649 /* ContentView.swift */; };
 		DEB2B3FF2B8B84350062B649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB2B3FE2B8B84350062B649 /* Assets.xcassets */; };
@@ -79,6 +85,12 @@
 		AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
 		AC2AD50B2B8CEE0000BC2183 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTF.swift; sourceTree = "<group>"; };
+		AC2AD5322B8E92C600BC2183 /* AnyTransition+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+ext.swift"; sourceTree = "<group>"; };
+		AC2AD5342B8E9A0F00BC2183 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		AC2AD5382B8E9A3500BC2183 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		AC2AD53B2B8E9B1B00BC2183 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		AC2AD53F2B8EA29F00BC2183 /* DismissBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissBtn.swift; sourceTree = "<group>"; };
+		AC2AD5412B8EA7C900BC2183 /* UIApplication+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+ext.swift"; sourceTree = "<group>"; };
 		DEB2B3F72B8B84320062B649 /* Who Wants to Be a Millionaire?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Wants to Be a Millionaire?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB2B3FA2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Wants_to_Be_a_Millionaire_App.swift; sourceTree = "<group>"; };
 		DEB2B3FC2B8B84320062B649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				AC2AD4EE2B8CA0A900BC2183 /* Image+ext.swift */,
+				AC2AD5412B8EA7C900BC2183 /* UIApplication+ext.swift */,
+				AC2AD5322B8E92C600BC2183 /* AnyTransition+ext.swift */,
 			);
 			name = Extensions;
 			path = "Who Wants to Be a Millionaire?/Extensions";
@@ -167,10 +181,12 @@
 			isa = PBXGroup;
 			children = (
 				AC2AD4F12B8CA0CD00BC2183 /* Background.swift */,
+				AC2AD53F2B8EA29F00BC2183 /* DismissBtn.swift */,
 				AC2AD5022B8CBD9B00BC2183 /* LightAnimation.swift */,
 				AC2AD5092B8CEABA00BC2183 /* CoinsView.swift */,
 				AC2AD4F72B8CA34700BC2183 /* QuestionPlank.swift */,
 				AC2AD50D2B8CF24500BC2183 /* PlayerTF.swift */,
+				AC2AD53B2B8E9B1B00BC2183 /* MenuButton.swift */,
 			);
 			name = Components;
 			path = "Who Wants to Be a Millionaire?/Components";
@@ -244,6 +260,8 @@
 			isa = PBXGroup;
 			children = (
 				DEB2B40A2B8B9C9C0062B649 /* MenuView.swift */,
+				AC2AD5382B8E9A3500BC2183 /* ResultsView.swift */,
+				AC2AD5342B8E9A0F00BC2183 /* RulesView.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -339,19 +357,25 @@
 				77ADA40F2B8E76DC0073A410 /* GameVoteView.swift in Sources */,
 				77F4A2FE2B8CE46A00E2289A /* GameStore.swift in Sources */,
 				DEB2B3FD2B8B84320062B649 /* ContentView.swift in Sources */,
+				777534252B8F95F6006B9097 /* AnyTransition+ext.swift in Sources */,
 				77C7244D2B8BD17400FB9D71 /* GameService.swift in Sources */,
 				77C724432B8BA12300FB9D71 /* NetworkService.swift in Sources */,
+				AC2AD5402B8EA29F00BC2183 /* DismissBtn.swift in Sources */,
+				AC2AD5352B8E9A0F00BC2183 /* RulesView.swift in Sources */,
 				AC2AD50C2B8CEE0000BC2183 /* RegistrationView.swift in Sources */,
 				AC2AD5052B8CE9E500BC2183 /* CoinAnumatableProperties.swift in Sources */,
 				AC2AD4EF2B8CA0A900BC2183 /* Image+ext.swift in Sources */,
 				AC2AD5012B8CB69900BC2183 /* EndGameView.swift in Sources */,
+				777534262B8F95F8006B9097 /* UIApplication+ext.swift in Sources */,
 				DEB2B3FB2B8B84320062B649 /* Who_Wants_to_Be_a_Millionaire_App.swift in Sources */,
 				AC2AD4EA2B8CA07C00BC2183 /* UserDeafaultsService.swift in Sources */,
 				77F4A3022B8D391700E2289A /* QuestionsListView.swift in Sources */,
 				AC2AD4F42B8CA10600BC2183 /* SoundService.swift in Sources */,
+				AC2AD53C2B8E9B1B00BC2183 /* MenuButton.swift in Sources */,
 				AC2AD50A2B8CEABA00BC2183 /* CoinsView.swift in Sources */,
 				77C724482B8BCED200FB9D71 /* GameView.swift in Sources */,
 				77C724462B8BA3AC00FB9D71 /* Entity.swift in Sources */,
+				AC2AD5392B8E9A3500BC2183 /* ResultsView.swift in Sources */,
 				AC2AD4FD2B8CAB8500BC2183 /* ProgressPlankModel.swift in Sources */,
 				AC2AD4EC2B8CA09200BC2183 /* SplashView.swift in Sources */,
 			);

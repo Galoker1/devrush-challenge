@@ -6,8 +6,6 @@ import SwiftUI
 
 struct PlayerTF: View {
     
-    @State var isSelected = false
-    @State var opacity: CGFloat = 0
     @Binding var text: String
     @FocusState private var isFocused: Bool
     var fontSize: CGFloat = 27
