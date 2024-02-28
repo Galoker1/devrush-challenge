@@ -7,23 +7,32 @@ import AVFoundation
 
 class SoundService {
     
-    static let player = SoundService()
+    enum Sounds: String {
+        case lose = "lose"
+        case win = "win"
+        case think = "thinking"
+        case intrigue = "intrigue"
+        case million = "millionwin"
+    }
 
-    var avPlayer: AVAudioPlayer!
+    
+    static let shared = SoundService()
+
+    private let player = AVPlayer(playerItem: nil)
     
     private init() {}
     
     func play(key: Sounds) {
         let url = Bundle.main.url(forResource: key.rawValue, withExtension: "mp3")
         
-        guard url != nil else {
+        guard let url else {
             return
         }
-        do {
-            avPlayer = try AVAudioPlayer(contentsOf: url!)
-            avPlayer?.play()
-        } catch {
-            print("\(error)")
-        }
+        player.replaceCurrentItem(with: .init(url: url))
+        player.play()
+    }
+    
+    func stop() {
+        player.pause()
     }
 }

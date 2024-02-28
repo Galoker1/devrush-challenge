@@ -1,0 +1,521 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Josh Mansour is part of what NRL team?",
+      "correct_answer": "Penrith Panthers",
+      "incorrect_answers": [
+        "Melbourne Storm",
+        "Sydney Roosters",
+        "North Queensland Cowboys"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Film",
+      "question": "What is the name of the supercomputer located in the control room in &quot;Jurassic Park&quot; (1993)?",
+      "correct_answer": "Thinking Machines CM-5",
+      "incorrect_answers": [
+        "Cray X-MP",
+        "Cray XK7",
+        "IBM Blue Gene/Q"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following names is the &quot;Mega Man&quot; Franchise known as in Japan?",
+      "correct_answer": "Rockman",
+      "incorrect_answers": [
+        "Paperman",
+        "Scissorsman",
+        "Mega Man"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the 2000 video game &quot;Crimson Skies,&quot; what was the name of the protagonists&#039; zeppelin?",
+      "correct_answer": "Pandora",
+      "incorrect_answers": [
+        "Helios",
+        "Icarus",
+        "Orion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Music",
+      "question": "The heavy metal band Black Sabbath hail from which English city?",
+      "correct_answer": "Birmingham",
+      "incorrect_answers": [
+        "Manchester",
+        "London",
+        "Newcastle-Upon-Tyne"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Which Apollo mission was the last one in NASA&#039;s Apollo program?",
+      "correct_answer": "Apollo 17",
+      "incorrect_answers": [
+        "Apollo 13",
+        "Apollo 11",
+        "Apollo 15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "General Knowledge",
+      "question": "Which of the following chemicals are found in eggplant seeds?",
+      "correct_answer": "Nicotine",
+      "incorrect_answers": [
+        "Mescaline",
+        "Cyanide",
+        "Psilocybin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Mathematics",
+      "question": "The notion of a &quot;set that contains all sets which do not contain themselves&quot; is a paradoxical idea attributed to which English philospher?",
+      "correct_answer": "Bertrand Russel",
+      "incorrect_answers": [
+        "Francis Bacon",
+        "John Locke",
+        "Alfred North Whitehead"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": " Which of these champions from the MOBA &#039;League of Legends&#039; is NOT a Yordle?",
+      "correct_answer": "Annie",
+      "incorrect_answers": [
+        "Veigar",
+        "Tristana",
+        "Lulu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "What European country is not a part of the EU?",
+      "correct_answer": "Norway",
+      "incorrect_answers": [
+        "Lithuania",
+        "Ireland",
+        "Czechia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What is the scientific term for &#039;taste&#039;?",
+      "correct_answer": "Gustatory Perception",
+      "incorrect_answers": [
+        "Olfaction",
+        "Somatosensation",
+        "Auditory Perception"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In Super Smash Bros. for Nintendo 3DS and Nintendo Wii U, who was the sixth fighter to be added to the game post-launch?",
+      "correct_answer": "Corrin",
+      "incorrect_answers": [
+        "Cloud",
+        "Bayonnetta",
+        "Ryu"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who was the first female protagonist in a video game?",
+      "correct_answer": "Samus Aran",
+      "incorrect_answers": [
+        "Lara Croft",
+        "Alis Landale",
+        "Chell"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "When was the video game publisher &quot;Ubisoft&quot; founded ?",
+      "correct_answer": "March 1986",
+      "incorrect_answers": [
+        "April 1990",
+        "June 2001",
+        "August 1956"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Geography",
+      "question": "Harvard University is located in which city?",
+      "correct_answer": "Cambridge",
+      "incorrect_answers": [
+        "Providence",
+        "New York",
+        "Washington D.C."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What were the first two blocks in &quot;Minecraft&quot;?",
+      "correct_answer": "Grass and Cobblestone",
+      "incorrect_answers": [
+        "Grass and Stone",
+        "Crafting Table and Cobblestone",
+        "Cobblestone and Stone"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Animals",
+      "question": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+      "correct_answer": "Pugs",
+      "incorrect_answers": [
+        "Bulldogs",
+        "Boxers",
+        "Chihuahua"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Who had a 1976 hit with the song &#039;You Make Me Feel Like Dancing&#039;?",
+      "correct_answer": "Leo Sayer",
+      "incorrect_answers": [
+        "Elton John",
+        "Billy Joel",
+        "Andy Gibb"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What is the main theme song of &quot;Sonic Adventure 2&quot;?",
+      "correct_answer": "Live and Learn",
+      "incorrect_answers": [
+        "Open Your Heart",
+        "Can You Feel the Sunshine?",
+        "His World"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What colour hair does the main character of the Yu-Gi-Oh! original anime series have?",
+      "correct_answer": "Red, black and yellow",
+      "incorrect_answers": [
+        "Red, yellow and green",
+        "Red, black and green",
+        "Red, purple and blue"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "In what year was the famous 45 foot tall Hollywood sign first erected?",
+      "correct_answer": "1923",
+      "incorrect_answers": [
+        "1903",
+        "1913",
+        "1933"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What year was Red Hot Chill Pepper&#039;s album &quot;Californication&quot; released?",
+      "correct_answer": "1999",
+      "incorrect_answers": [
+        "1997",
+        "2000",
+        "1992"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In Grand Theft Auto: V, what wanted level does the player receive if they enter Zancudo Army Base north of Los Santos?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "3",
+        "5",
+        "1"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "What does the Prt Sc button do?",
+      "correct_answer": "Captures what&#039;s on the screen and copies it to your clipboard",
+      "incorrect_answers": [
+        "Nothing",
+        "Saves a .png file of what&#039;s on the screen in your screenshots folder in photos",
+        "Closes all windows"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "What mineral has the lowest number on the Mohs scale?",
+      "correct_answer": "Talc",
+      "incorrect_answers": [
+        "Quartz",
+        "Diamond",
+        "Gypsum"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Inuyasha&quot;, what are the heros are looking to collect?",
+      "correct_answer": "Jewel Shards",
+      "incorrect_answers": [
+        "Dragon Balls",
+        "Rave Stones",
+        "Sacred Stones"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was Pok&eacute;mon Diamond &amp; Pearl released in Japan?",
+      "correct_answer": "2006",
+      "incorrect_answers": [
+        "2009",
+        "2007",
+        "2008"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In Kingdom Hearts, how many members does Organization XIII have in total?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "10",
+        "13",
+        "12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "What was studio Trigger&#039;s first original long-form animated series for television?",
+      "correct_answer": "Kill la Kill",
+      "incorrect_answers": [
+        "Kiznaiver",
+        "Inferno Cop",
+        "Gurren Lagann"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "What minimum level in the Defence skill is needed to equip Dragon Armour in the MMO RuneScape?",
+      "correct_answer": "60",
+      "incorrect_answers": [
+        "65",
+        "55",
+        "70"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+      "correct_answer": "Non-impact printer",
+      "incorrect_answers": [
+        "Impact printer",
+        "Daisywheel printer",
+        "Dot matrix printer"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+      "correct_answer": "Culper Ring",
+      "incorrect_answers": [
+        "New York Spy Ring",
+        "Washington&#039;s Spies",
+        "Unnamed"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year did the Boxing Day earthquake &amp; tsunami occur in the Indian Ocean?",
+      "correct_answer": "2004",
+      "incorrect_answers": [
+        "2006",
+        "2008",
+        "2002"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In what year was the original Sonic the Hedgehog game released?",
+      "correct_answer": "1991",
+      "incorrect_answers": [
+        "1989",
+        "1993",
+        "1995"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Animals",
+      "question": "The Kākāpō is a large, flightless, nocturnal parrot native to which country?",
+      "correct_answer": "New Zealand",
+      "incorrect_answers": [
+        "South Africa",
+        "Australia",
+        "Madagascar"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "In the 2014 Pokemon VGC Finals, which Pokemon was famous for bringing the winner to victory?",
+      "correct_answer": "Pachirisu",
+      "incorrect_answers": [
+        "Garchomp",
+        "Lapras",
+        "Primal Groudon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Who was the first Chancellor of a united Germany in 1871? ",
+      "correct_answer": "Otto Von Bismark",
+      "incorrect_answers": [
+        "Kaiser Wilhelm ",
+        "Fredrick the 2nd",
+        "Robert Koch"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+      "correct_answer": "Motorola 68000",
+      "incorrect_answers": [
+        "Zilog Z80",
+        "Yamaha YM2612",
+        "Intel 8088"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "Which animation studio animated the 2016 anime &quot;Mob Psycho 100&quot;?",
+      "correct_answer": "Bones",
+      "incorrect_answers": [
+        "A-1 Pictures",
+        "Shaft",
+        "Madhouse"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Who was the star of the TV series &quot;24&quot;?",
+      "correct_answer": "Kiefer Sutherland",
+      "incorrect_answers": [
+        "Kevin Bacon",
+        "Hugh Laurie",
+        "Rob Lowe"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science &amp; Nature",
+      "question": "What does DNA stand for?",
+      "correct_answer": "Deoxyribonucleic Acid",
+      "incorrect_answers": [
+        "Deoxyribogenetic Acid",
+        "Deoxyribogenetic Atoms",
+        "Detoxic Acid"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Whistler was the codename of this Microsoft Operating System.",
+      "correct_answer": "Windows XP",
+      "incorrect_answers": [
+        "Windows 2000",
+        "Windows 7",
+        "Windows 95"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Which Nintendo 64 game did NOT have Luigi in it?",
+      "correct_answer": "Super Mario 64",
+      "incorrect_answers": [
+        "Mario Party 2",
+        "Paper Mario",
+        "Super Smash Bros."
+      ]
+    }
+  ]
+}

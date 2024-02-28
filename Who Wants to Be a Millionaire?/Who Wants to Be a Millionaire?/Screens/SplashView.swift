@@ -14,7 +14,7 @@ struct SplashView: View {
             Background(image: BgImage.empty)
                 .saturation(saturation)
                 .animation(.easeIn(duration: 1.5), value: saturation)
-
+            
             Image("Logo")
                 .resizableToFit()
                 .padding(48)
@@ -22,11 +22,16 @@ struct SplashView: View {
                 .offset(x: offsetX)
                 .animation(.spring().delay(0.3), value: offsetX)
                 .saturation(saturation)
-
+            
         }
         .onAppear {
             offsetX = 0
             saturation = 1.4
+            Timer.scheduledTimer (withTimeInterval: 2, repeats: false) { timer in
+                withAnimation(.easeInOut(duration: 0.5)) {
+                    
+                }
+            }
         }
     }
 }
