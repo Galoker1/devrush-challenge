@@ -6,9 +6,12 @@ import SwiftUI
 
 struct EndGameView: View {
     
+    let questionIndex: Int
+    let win: Bool
+    let prize: Int
+    let newGameClosure: () -> Void
+    
     @State var opacity: Double = 0
-    @EnvironmentObject var vm: GameLogic
-    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         ZStack {
@@ -16,7 +19,7 @@ struct EndGameView: View {
             
             LightAnimation(color: .red)
             
-            Text("LOSE")
+            Text(win ? "WIN" : "LOSE")
                 .font(.largeTitle)
                 .foregroundStyle(.red)
                 .opacity(opacity)
@@ -24,21 +27,24 @@ struct EndGameView: View {
 
             
             VStack {
-                Image("Logo")
+                Image(.logo)
                     .resizableToFit()
-                    .frame(width: UIScreen.main.bounds.width*0.6)
+                    .frame(width: UIScreen.main.bounds.width * 0.6)
                 
-                Text("You losed on \(vm.currentQuestion) question")
-                    .font(.title2)
-                    .foregroundStyle(.white)
-                    .padding(.top)
-                
+                Group {
+                    if win {
+                        Text("You won 1 million!")
+                            .foregroundStyle(.yellow)
+                    } else {
+                        Text("You losed on \(questionIndex + 1) question\nSafe Haven: \(prize) RUB")
+                    }
+                }
+                .foregroundStyle(.white)
+                .padding(.top)
+                .font(.title2)
                 Spacer()
                 
-                PlayAgainBtn(action: {
-                    vm.resetGame()
-                    dismiss()
-                })
+                playAgainBtn()
                 
             }
             .opacity(opacity)
@@ -46,13 +52,12 @@ struct EndGameView: View {
         }
         .onAppear {
             opacity = 1
-            SoundService.player.play(key: .lose)
         }
     }
     
-    func PlayAgainBtn(action: @escaping () -> Void) -> some View {
+    func playAgainBtn() -> some View {
         Button {
-            action()
+            newGameClosure()
         } label: {
             RoundedRectangle(cornerRadius: 20)
                 .fill(.green)
@@ -68,6 +73,10 @@ struct EndGameView: View {
 }
 
 #Preview {
-    EndGameView()
-        .environmentObject(GameLogic())
+    EndGameView(
+        questionIndex: 10,
+        win: false,
+        prize: 1000,
+        newGameClosure: {}
+    )
 }

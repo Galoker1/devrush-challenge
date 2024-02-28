@@ -6,7 +6,6 @@ import SwiftUI
 
 struct SplashView: View {
     
-    @EnvironmentObject var vm: GameLogic
     @State var offsetX: CGFloat = -700
     @State var saturation = 0.6
     
@@ -30,7 +29,7 @@ struct SplashView: View {
             saturation = 1.4
             Timer.scheduledTimer (withTimeInterval: 2, repeats: false) { timer in
                 withAnimation(.easeInOut(duration: 0.5)) {
-                    self.vm.isSplash = false
+                    
                 }
             }
         }
@@ -39,5 +38,4 @@ struct SplashView: View {
 
 #Preview {
     SplashView()
-        .environmentObject(GameLogic())
 }

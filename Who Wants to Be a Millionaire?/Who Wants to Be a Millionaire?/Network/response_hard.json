@@ -1,0 +1,474 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "What is the last song on the first Panic! At the Disco album?",
+      "correct_answer": "Build God, Then We&#039;ll Talk",
+      "incorrect_answers": [
+        "Nails for Breakfast, Tacks for Snacks",
+        "I Write Sins Not Tragedies",
+        "Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "Toussaint Louverture led a successful slave revolt in which country?",
+      "correct_answer": "Haiti",
+      "incorrect_answers": [
+        "France",
+        "Cuba",
+        "United States"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Australia",
+        "Turkey",
+        "Cambodia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Vehicles",
+      "question": "The LS2 engine is how many cubic inches?",
+      "correct_answer": "364",
+      "incorrect_answers": [
+        "346",
+        "376",
+        "402"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the protagonist of the videogame &quot;Dead Rising 2&quot;?",
+      "correct_answer": "Chuck Greene",
+      "incorrect_answers": [
+        "Nick Ramos",
+        "Frank West",
+        "Katie Greene"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In the 2002 video game &quot;Kingdom Hearts&quot;, how many playable worlds were there?",
+      "correct_answer": "14",
+      "incorrect_answers": [
+        "13",
+        "16",
+        "11"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "In what year did the Wall Street Crash take place?",
+      "correct_answer": "1929",
+      "incorrect_answers": [
+        "1932",
+        "1930",
+        "1925"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In Digimon, what is the Japanese name for the final evolutionary stage?",
+      "correct_answer": "Ultimate",
+      "incorrect_answers": [
+        "Mega",
+        "Adult",
+        "Champion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the game Nuclear Throne, what character is only usable in a play through with Melting?",
+      "correct_answer": "Skeleton",
+      "incorrect_answers": [
+        "Frog",
+        "Horror",
+        "Plant"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "Which stand-up comedian voiced the talking parrot &quot;Iago&quot; in Disney&#039;s 1992 adaptation of Aladdin?",
+      "correct_answer": "Gilbert Gottfried",
+      "incorrect_answers": [
+        "Robin Williams",
+        "Pauly Shore",
+        "Jonathan Freeman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In the TV show &quot;Rick and Morty&quot;, Rick uses the catchphrase &quot;Wubba Lubba Dub Dub&quot;, which means what in Birdperson?",
+      "correct_answer": "I am in great pain, please help me.",
+      "incorrect_answers": [
+        "I pray that my life ends soon.",
+        "Lets get this party started!",
+        "I am suffering, please help me."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Science: Computers",
+      "question": "What does the International System of Quantities refer 1024 bytes as?",
+      "correct_answer": "Kibibyte",
+      "incorrect_answers": [
+        "Kylobyte",
+        "Kilobyte",
+        "Kelobyte"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "In the Nintendo DS game &#039;Ghost Trick: Phantom Detective&#039;, what is the name of the hitman seen at the start of the game?",
+      "correct_answer": "Nearsighted Jeego",
+      "incorrect_answers": [
+        "One Step Ahead Tengo",
+        "Missile",
+        "Cabanela"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What was the main currency in Club Penguin?",
+      "correct_answer": "Coins",
+      "incorrect_answers": [
+        "Stamps",
+        "Tickets",
+        "Gems"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Video Games",
+      "question": "What do the video games No Man&rsquo;s Sky and Mighty No. 9 have in common?",
+      "correct_answer": "Both were announced in 2013.",
+      "incorrect_answers": [
+        "Both were crowdfunded.",
+        "Both were developed by indie studios.",
+        "Both were released for the PlayStation 3."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Music",
+      "question": "Who is the lead singer of the British pop rock band Coldplay?",
+      "correct_answer": "Chris Martin",
+      "incorrect_answers": [
+        "Jonny Buckland",
+        "Guy Berryman",
+        "Will Champion"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?",
+      "correct_answer": "Bing Crosby",
+      "incorrect_answers": [
+        "Elvis Presley",
+        "Charlie Chaplin",
+        "Groucho Marx"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Film",
+      "question": "What is the birth name of Michael Keaton?",
+      "correct_answer": "Michael Douglas",
+      "incorrect_answers": [
+        "Michael Fox",
+        "Michael Richards",
+        "Michael Kane"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Art",
+      "question": "Who painted the Mona Lisa?",
+      "correct_answer": "Leonardo da Vinci",
+      "incorrect_answers": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Vincent van Gogh"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "Which song in Drake&#039;s &quot;Views&quot; features Future?",
+      "correct_answer": "Grammys",
+      "incorrect_answers": [
+        "Too Good",
+        "Faithful",
+        "Pop Style"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "What year did the Boxing Day earthquake &amp; tsunami occur in the Indian Ocean?",
+      "correct_answer": "2004",
+      "incorrect_answers": [
+        "2006",
+        "2008",
+        "2002"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Gadgets",
+      "question": "What is the &quot;Mitsubishi Wakamaru&quot;?",
+      "correct_answer": "A robot",
+      "incorrect_answers": [
+        "A pickup truck",
+        "An motorcycle",
+        "A motorboat"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Gadgets",
+      "question": "Which gaming console is developed by Sony?",
+      "correct_answer": "PlayStation",
+      "incorrect_answers": [
+        "Xbox",
+        "Atari",
+        "Nintendo Switch"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Entertainment: Cartoon &amp; Animations",
+      "question": "In &quot;Gravity Falls&quot;, the character Bill Cipher remarks that &quot;the universe is what?&quot;",
+      "correct_answer": "A hologram ",
+      "incorrect_answers": [
+        "An illusion ",
+        "A simulation",
+        "Corrupting"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Geography",
+      "question": "Frankenmuth, a US city nicknamed &quot;Little Bavaria&quot;, is located in what state?",
+      "correct_answer": "Michigan",
+      "incorrect_answers": [
+        "Pennsylvania",
+        "Kentucky",
+        "Virginia"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "History",
+      "question": "What was Napoleon Bonaparte&#039;s name before he changed it?",
+      "correct_answer": "Napoleone di Buonaparte",
+      "incorrect_answers": [
+        "Naapolion van Bonijpaart",
+        "Napole&atilde;o do Boaparte",
+        "Napoleona de Buenoparte"
+      ]
+    },
+
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science: Computers",
+      "question": "Whistler was the codename of this Microsoft Operating System.",
+      "correct_answer": "Windows XP",
+      "incorrect_answers": [
+        "Windows 2000",
+        "Windows 7",
+        "Windows 95"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which of the following is a character in the video game Destiny?",
+      "correct_answer": "Cayde-6",
+      "incorrect_answers": [
+        "Ostrava of Boletaria",
+        "Mordecai the Hunter",
+        "Leon S. Kennedy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Video Games",
+      "question": "Who is the last boss in Night In The Woods&#039; Demontower minigame?",
+      "correct_answer": "The Blood Thief",
+      "incorrect_answers": [
+        "Mega Hairball ",
+        "King Skellie ",
+        "Krampus "
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Sports",
+      "question": "Who was the topscorer for England national football team?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "David Beckham",
+        "Steven Gerrard",
+        "Michael Owen"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "How many values can a single byte represent?",
+      "correct_answer": "256",
+      "incorrect_answers": [
+        "8",
+        "1",
+        "1024"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Science &amp; Nature",
+      "question": "How old is the universe?",
+      "correct_answer": "13.8 Billion Years",
+      "incorrect_answers": [
+        "4.5 Billion Years",
+        "7.9 Billion Years",
+        "16.2 Billion Years"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Japanese Anime &amp; Manga",
+      "question": "In &quot;Fairy Tail&quot;, what is the nickname of Natsu Dragneel?",
+      "correct_answer": "The Salamander",
+      "incorrect_answers": [
+        "The Dragon Slayer",
+        "The Dragon",
+        "The Demon"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "Which WWF wrestler had the nickname &quot;The Ayatollah of Rock &#039;N&#039; Rolla&quot;?",
+      "correct_answer": "Chris Jericho",
+      "incorrect_answers": [
+        "Marty Jannetty",
+        "Scott Hall",
+        "Shawn Michaels"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Music",
+      "question": "The song &quot;Caramelldansen&quot; is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+      "correct_answer": "Swedish",
+      "incorrect_answers": [
+        "Hungarian",
+        "Finnish",
+        "Chinese"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Who composed the soundtrack for the game VVVVVV?",
+      "correct_answer": "Magnus P&aring;lsson",
+      "incorrect_answers": [
+        "Terry Cavanagh",
+        "Danny Baranowsky",
+        "Joel Zimmerman"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "The Spitfire L.F. Mk IX had what engine?",
+      "correct_answer": "Merlin 66",
+      "incorrect_answers": [
+        "Griffon 65",
+        "Merlin 50",
+        "Merlin X"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Killing Floor started as a mod for which Unreal Engine 2 game?",
+      "correct_answer": "Unreal Tournament 2004",
+      "incorrect_answers": [
+        "Deus Ex: Invisible War",
+        "Unreal Tournament 3",
+        "Postal"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+      "correct_answer": "Silver",
+      "incorrect_answers": [
+        "Gold",
+        "Juno",
+        "Sword"
+      ]
+    }
+  ]
+}

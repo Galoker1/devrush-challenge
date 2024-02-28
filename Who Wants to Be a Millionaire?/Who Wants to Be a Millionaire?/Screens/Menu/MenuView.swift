@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct MenuView: View {
-    @EnvironmentObject var vm: GameLogic
-    
     var body: some View {
         NavigationView {
             ZStack {
-                Background(image: BgImage.empty)
-                
+                GeometryReader { geometry in
+                    Image("EmptyBackground")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: geometry.size.width, height: geometry.size.height)
+                        .clipped() // Обрезать изображение, чтобы оно не выходило за пределы экрана
+                }
+                .edgesIgnoringSafeArea(.all)
                 VStack {
-                    Image("Logo")
+                    Image(.logo)
                         .imageScale(.large)
                         .padding(.top, 40)
                     Text("Добро пожаловать")
@@ -26,51 +30,55 @@ struct MenuView: View {
                         .font(.system(size: 36, weight: .bold))
                         .foregroundColor(Color.white)
                     Spacer()
-                    
-                    NavigationLink {
-                        GameView()
-                            .environmentObject(vm)
-                    } label: {
-                        MenuButton(text: "Начать игру")
-                    }
-                    
-                    NavigationLink {
-                        ResultsView()
-                            .environmentObject(vm)
-                    } label: {
-                        MenuButton(text: "Результаты")
-                    }
-                    
-                    NavigationLink {
-                        RulesView()
-                            .environmentObject(vm)
-                    } label: {
-                        MenuButton(text: "Правила игры")
-                    }
-                    
+                    NavigationLink(
+                        destination: {
+                            GameView()
+                        },
+                        label: {
+                            MenuItem(title: "Начать игру")
+                        }
+                    )
+                    NavigationLink(
+                        destination: {
+                            
+                        },
+                        label: {
+                            MenuItem(title: "Правила игры")
+                        }
+                    )
+                    NavigationLink(
+                        destination: {
+                            
+                        },
+                        label: {
+                            MenuItem(title: "Результаты")
+                        }
+                    )
                     Spacer()
                 }
             }
         }
         .navigationViewStyle(.stack)
     }
-        
-        func menuButton(text: String, action: @escaping () -> Void) -> some View {
-            Button {
-                action()
-            } label: {
-                Text(text)
-                    .foregroundColor(Color.white)
-                    .background(
-                        Image("BlueBox")
-                    )
-            }
-            .padding(.vertical)
-        }
+}
 
+struct MenuItem: View {
+    
+    let title: String
+    
+    var body: some View {
+        ZStack {
+            Gradients.blue
+            Text(title)
+            .padding(.init(top: 10, leading: 20, bottom: 10, trailing: 20))
+            .foregroundStyle(.white)
+        }
+        .clipShape(.rect(cornerRadius: 16))
+        .frame(height: 40)
+        .padding(.init(top: 10, leading: 35, bottom: 0, trailing: 35))
+    }
 }
 
 #Preview {
     MenuView()
-        .environmentObject(GameLogic())
 }

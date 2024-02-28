@@ -20,7 +20,7 @@ enum QuestionDifficalty: String {
 }
 
 protocol NetworkServiceProtocol {
-    func getQuestions(amount: Int, difficulty: QuestionDifficalty) async -> Result<QuestionsEntity, NetworkError>
+    func getQuestions(amount: Int, difficulty: QuestionDifficalty, delay: Int) async -> Result<QuestionsEntity, NetworkError>
 }
 
 final actor NetworkService {
@@ -33,7 +33,7 @@ final actor NetworkService {
 }
 
 extension NetworkService: NetworkServiceProtocol {
-    func getQuestions(amount: Int, difficulty: QuestionDifficalty) async -> Result<QuestionsEntity, NetworkError> {
+    func getQuestions(amount: Int, difficulty: QuestionDifficalty, delay: Int) async -> Result<QuestionsEntity, NetworkError> {
         var urlComponents = URLComponents(string: Consts.baseURL)
         urlComponents?.queryItems = [
             .init(name: .amount, value: "\(amount)"),
@@ -42,6 +42,9 @@ extension NetworkService: NetworkServiceProtocol {
         guard let url = urlComponents?.url else {
             return .failure(.invalidURL)
         }
+        print(url)
+        
+        try? await Task.sleep(nanoseconds: UInt64(delay * 1_000_000_000))
         
         guard let (data, _) = try? await session.data(from: url) else {
             return .failure(.failedRequest)
