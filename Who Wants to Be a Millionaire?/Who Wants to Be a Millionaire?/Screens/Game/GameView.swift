@@ -11,7 +11,7 @@ struct GameView: View {
     
     @ObservedObject private var store = GameStore()
     @State private var scale = 1.0
-    
+    var name: String
     var body: some View {
         ZStack {
             Image(.emptyBackground)
@@ -117,12 +117,14 @@ struct GameView: View {
                         prize: model.prize,
                         newGameClosure: {
                             store.send(.newGame)
-                        }
+                        },
+                        name: name
                     )
                 }
             }
             .foregroundStyle(.white)
         }
+        .navigationBarHidden(true)
         .sheet(
             isPresented: $store.showVote,
             content: {
@@ -140,7 +142,7 @@ struct GameView: View {
 }
 
 #Preview {
-    GameView()
+    GameView(name: "egor")
 }
 
 extension Color {

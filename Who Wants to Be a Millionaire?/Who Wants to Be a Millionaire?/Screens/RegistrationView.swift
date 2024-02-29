@@ -5,43 +5,58 @@
 import SwiftUI
 
 struct RegistrationView: View {
-    
+    @Environment(\.presentationMode) var presentationMode
     @State var playerName: String = ""
-    
+    @State private var isPresentedGameView = false
     var body: some View {
-        ZStack {
-            Background(image: BgImage.money)
-             
-            CoinsView()
-                .onTapGesture {
-                    UIApplication.shared.endEditing()
-                }
-               
-            
-            VStack {
-                Image("Logo")
-                    .resizableToFit()
-                    .frame(width: 250)
+        NavigationView {
+            ZStack {
+                Background(image: BgImage.money)
                 
-                Text("Введите свой никнейм")
-                    .font(.title)
-                    .padding()
+                CoinsView()
+                    .onTapGesture {
+                        UIApplication.shared.endEditing()
+                    }
                 
-                PlayerTF(text: $playerName)
                 
-                RegistrationBtn {
+                VStack {
+                    Image("Logo")
+                        .resizableToFit()
+                        .frame(width: 250)
                     
+                    Text("Введите свой никнейм")
+                        .font(.title)
+                        .padding()
+                    
+                    PlayerTF(text: $playerName)
+                    
+                    
+                    NavigationLink(destination: GameView(name: playerName)) {
+                        RegistrationBtn {
+                            
+                        }
+                        
+                    }
+                    Spacer()
                 }
-                
-                Spacer()
             }
+            .overlay(alignment: .topTrailing) {
+                Button {
+                    self.presentationMode.wrappedValue.dismiss()
+                    
+                } label: {
+                    Image("x")
+                        .padding(.trailing, 16)
+                }
+            }
+            
         }
+        .navigationBarHidden(true)
+        
     }
     
     func RegistrationBtn(action: @escaping () -> Void) -> some View {
-        Button {
-            action()
-        } label: {
+
             RoundedRectangle(cornerRadius: 20)
                 .fill(Color("lightgreen"))
                 .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
@@ -50,7 +65,7 @@ struct RegistrationView: View {
                         .foregroundStyle(.white)
                         .font(.largeTitle)
                 }
-        }
+        
         .padding(40)
     }
 }

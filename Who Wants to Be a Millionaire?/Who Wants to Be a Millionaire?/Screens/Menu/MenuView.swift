@@ -32,7 +32,7 @@ struct MenuView: View {
                     Spacer()
                     NavigationLink(
                         destination: {
-                            GameView()
+                            RegistrationView()
                         },
                         label: {
                             MenuItem(title: "Начать игру")
@@ -40,7 +40,7 @@ struct MenuView: View {
                     )
                     NavigationLink(
                         destination: {
-                            
+                            RulesView()
                         },
                         label: {
                             MenuItem(title: "Правила игры")
@@ -48,7 +48,7 @@ struct MenuView: View {
                     )
                     NavigationLink(
                         destination: {
-                            
+                            ResultsView()
                         },
                         label: {
                             MenuItem(title: "Результаты")
@@ -58,6 +58,7 @@ struct MenuView: View {
                 }
             }
         }
+        .navigationBarBackButtonHidden()
         .navigationViewStyle(.stack)
     }
 }
