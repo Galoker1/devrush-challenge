@@ -37,7 +37,8 @@ extension NetworkService: NetworkServiceProtocol {
         var urlComponents = URLComponents(string: Consts.baseURL)
         urlComponents?.queryItems = [
             .init(name: .amount, value: "\(amount)"),
-            .init(name: .difficalty, value: difficulty.rawValue.capitalized)
+            .init(name: .difficalty, value: difficulty.rawValue.capitalized),
+            .init(name: "type", value: "multiple")
         ]
         guard let url = urlComponents?.url else {
             return .failure(.invalidURL)

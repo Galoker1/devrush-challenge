@@ -15,19 +15,17 @@ struct ResultsView: View {
                 ScrollView {
                     ForEach(results.resulsArray, id: \.id) { result in
 
-                            
+                        if result.name != "" {
                             HStack {
                                 Text(result.name)
                                 Spacer()
                                 Text(String(result.score))
                             }
-                            
-                        
-                        .padding(10)
-                        .background(Gradients.blue)
-                        .clipShape(.rect(cornerRadius: 16))
-                        .foregroundStyle(.white)
-                        
+                            .padding(10)
+                            .background(Gradients.blue)
+                            .clipShape(.rect(cornerRadius: 16))
+                            .foregroundStyle(.white)
+                        }
                     }
                 }
                 .padding(.top, 50)
