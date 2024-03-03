@@ -41,9 +41,9 @@ final class GameService {
     @discardableResult
     func loadQuestions() async -> Bool {
         if [easyQuestions, medQuestions, hardQuestions].map({ $0.count > 5 }).contains(false) {
-            async let easyRequest = networkService.getQuestions(amount: 50, difficulty: .easy, delay: 0)
-            async let medRequest = networkService.getQuestions(amount: 50, difficulty: .medium, delay: 5)
-            async let hardRequest = networkService.getQuestions(amount: 50, difficulty: .hard, delay: 10)
+            async let easyRequest = networkService.getQuestions(amount: 5, difficulty: .easy, delay: 0)
+            async let medRequest = networkService.getQuestions(amount: 5, difficulty: .medium, delay: 6)
+            async let hardRequest = networkService.getQuestions(amount: 5, difficulty: .hard, delay: 12)
             
             let response = await (easyRequest, medRequest, hardRequest)
             
@@ -93,6 +93,7 @@ final class GameService {
                 .init(type: $0, available: availableLifelines.contains($0))
             }
         )
+        print(currentQuestion.correctAnswer)
         return currentRound
     }
     

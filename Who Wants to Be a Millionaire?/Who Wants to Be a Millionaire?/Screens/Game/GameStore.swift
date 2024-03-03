@@ -88,7 +88,7 @@ final class GameStore: ObservableObject {
     private(set) var voteData = [String: Double]()
     
     private var timer: Timer?
-    private let gameService = GameService(NetworkServiceMock())
+    private let gameService = GameService(NetworkService())
     
     func send(_ action: GameAction) {
         switch action {
